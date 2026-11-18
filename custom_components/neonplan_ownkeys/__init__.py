@@ -2,8 +2,7 @@
 
 Adds public keys to neonplan3d's PACK_PUBLIC_KEYS at runtime, so self-signed
 packs can be imported without editing packs.py (which HACS updates overwrite).
-Keys are managed via the UI (Configure) or, as a legacy fallback, via the
-OWN_KEYS dict below plus `neonplan_ownkeys:` in configuration.yaml.
+Keys are managed via the UI (Configure).
 """
 
 from __future__ import annotations
@@ -13,17 +12,10 @@ import logging
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
 from homeassistant.exceptions import ConfigEntryNotReady
-from homeassistant.helpers.typing import ConfigType
 
 from .const import CONF_KEYS, DOMAIN
 
 _LOGGER = logging.getLogger(__name__)
-
-# Legacy fallback: keys used when the integration is enabled via
-# `neonplan_ownkeys:` in configuration.yaml instead of a config entry.
-OWN_KEYS = {
-    "e43284d2e58f": "qWxaLKXfw5jB3mzPiPBCXg4Sg68WkxR+wXS/1xSzswo=",
-}
 
 
 def _packs():
@@ -41,19 +33,6 @@ def _apply(hass: HomeAssistant, entry_id: str, keys: dict[str, str], packs) -> N
         added.discard(key_id)
     packs.PACK_PUBLIC_KEYS.update(keys)
     added.update(keys)
-
-
-async def async_setup(hass: HomeAssistant, config: ConfigType) -> bool:
-    """YAML fallback: apply the OWN_KEYS above when the domain is configured."""
-    if DOMAIN not in config:
-        return True
-    try:
-        _apply(hass, "yaml", dict(OWN_KEYS), _packs())
-    except Exception as err:
-        _LOGGER.error("neonplan_ownkeys: cannot apply YAML keys to neonplan3d: %r", err)
-        return False
-    _LOGGER.info("Added %d YAML pack signing key(s) to neonplan3d", len(OWN_KEYS))
-    return True
 
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:

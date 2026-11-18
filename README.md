@@ -13,7 +13,8 @@ overwrite.
 3. Restart Home Assistant
 4. Settings → Devices & services → **Add integration** → "NeonPlan own pack keys"
 
-Requires NeonPlan 3D to be installed.
+Requires NeonPlan 3D to be installed. A new entry is seeded with the default
+key in `const.py` (`DEFAULT_KEYS`) — delete it via Configure if you don't need it.
 
 ## Managing keys
 
@@ -26,8 +27,3 @@ Settings → Devices & services → NeonPlan own pack keys → **Configure**:
   `config/neonplan_ownkeys/<key_id>.pem`
 - **Update a key** — replace the public key of an existing key ID
 - **Delete keys** — remove keys; changes apply immediately, no restart needed
-
-## Legacy YAML fallback
-
-`neonplan_ownkeys:` in `configuration.yaml` still applies the `OWN_KEYS` dict
-in `__init__.py` — kept for compatibility, prefer the UI.

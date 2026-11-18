@@ -6,9 +6,10 @@ you sign yourself (with `tools/fp3dpack.py` from the neonplan3d repository) can
 be imported — without patching `packs.py`, which every NeonPlan update would
 overwrite.
 
-## Install via HACS
+## Install via Marketplace
 
-1. HACS → ⋮ → **Custom repositories** → add this repo, type **Integration**
+1. Marketplace → **Add repository** → paste
+   `https://github.com/mohnen/neonplan-own`, type **Integration**
 2. Install **NeonPlan own pack keys**
 3. Restart Home Assistant
 4. Settings → Devices & services → **Add integration** → "NeonPlan own pack keys"

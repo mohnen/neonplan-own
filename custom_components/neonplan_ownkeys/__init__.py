@@ -1,7 +1,7 @@
 """Register own signing keys for NeonPlan 3D furniture packs.
 
 Adds public keys to neonplan3d's PACK_PUBLIC_KEYS at runtime, so self-signed
-packs can be imported without editing packs.py (which HACS updates overwrite).
+packs can be imported without editing packs.py (which Marketplace updates overwrite).
 Keys are managed via the UI (Configure).
 """
 

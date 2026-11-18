@@ -17,6 +17,7 @@ from homeassistant.config_entries import ConfigFlow, ConfigFlowResult, OptionsFl
 from homeassistant.helpers import selector
 
 from .const import CONF_KEYS, DOMAIN, KEY_ID_RE
+from . import OWN_KEYS
 
 _LOGGER = logging.getLogger(__name__)
 
@@ -43,7 +44,9 @@ class NeonplanOwnkeysConfigFlow(ConfigFlow, domain=DOMAIN):
             return self.async_show_form(step_id="user")
         await self.async_set_unique_id(DOMAIN)
         self._abort_if_unique_id_configured()
-        return self.async_create_entry(title="NeonPlan own pack keys", data={}, options={CONF_KEYS: {}})
+        return self.async_create_entry(
+            title="NeonPlan own pack keys", data={}, options={CONF_KEYS: dict(OWN_KEYS)}
+        )
 
     @staticmethod
     def async_get_options_flow(config_entry) -> OptionsFlow:

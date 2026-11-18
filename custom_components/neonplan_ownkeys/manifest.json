@@ -1,11 +1,11 @@
 {
   "domain": "neonplan_ownkeys",
   "name": "NeonPlan own pack keys",
-  "codeowners": ["@mmohnen"],
+  "codeowners": ["@mohnen"],
   "config_flow": true,
-  "documentation": "https://github.com/mmohnen/neonplan-ownkeys",
+  "documentation": "https://github.com/mohnen/neonplan-own",
   "integration_type": "service",
   "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/mmohnen/neonplan-ownkeys/issues",
+  "issue_tracker": "https://github.com/mohnen/neonplan-own/issues",
   "version": "2.0.0"
 }

@@ -60,7 +60,11 @@ class NeonplanOwnkeysOptionsFlow(OptionsFlow):
         return self.async_create_entry(data={CONF_KEYS: keys})
 
     async def async_step_init(self, user_input: dict[str, Any] | None = None) -> ConfigFlowResult:
-        menu = ["add", "generate"] + (["update", "delete"] if self._keys() else [])
+        # menu_options as a dict shows these labels directly, without translations
+        menu = {"add": "Add a public key", "generate": "Generate a new signing key"}
+        if self._keys():
+            menu["update"] = "Update a key"
+            menu["delete"] = "Delete keys"
         return self.async_show_menu(step_id="init", menu_options=menu)
 
     # -- add an existing public key -------------------------------------------------

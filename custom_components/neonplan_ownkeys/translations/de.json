@@ -1,0 +1,57 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "NeonPlan eigene Pack-Schlüssel",
+        "description": "Registriert eigene Ed25519-Schlüssel in NeonPlan 3D, damit selbst signierte Möbel-Packs importiert werden können. Die Schlüssel werden danach über „Konfigurieren“ verwaltet."
+      }
+    },
+    "abort": {
+      "already_configured": "NeonPlan eigene Pack-Schlüssel ist bereits eingerichtet."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "menu_options": {
+          "add": "Öffentlichen Schlüssel hinzufügen",
+          "generate": "Neuen Signierschlüssel erzeugen",
+          "update": "Schlüssel aktualisieren",
+          "delete": "Schlüssel löschen"
+        }
+      },
+      "add": {
+        "title": "Öffentlichen Schlüssel hinzufügen",
+        "description": "Fügt einen Ed25519-Schlüssel (Ausgabe von `fp3dpack.py keygen`) den vertrauenswürdigen Herausgebern von NeonPlan 3D hinzu.",
+        "data": {
+          "key_id": "Schlüssel-ID (12 Hex-Zeichen)",
+          "public_key": "Öffentlicher Schlüssel (base64)"
+        }
+      },
+      "generated": {
+        "title": "Signierschlüssel erzeugt",
+        "description": "Der geheime Schlüssel wurde in `{path}` gespeichert — sicher aufbewahren, `fp3dpack.py sign --key {path}` signiert damit Packs.\n\nDer öffentliche Schlüssel `{key_id}` (`{public_key}`) wird beim Absenden registriert."
+      },
+      "update": {
+        "title": "Schlüssel aktualisieren",
+        "data": {
+          "key_id": "Schlüssel",
+          "public_key": "Neuer öffentlicher Schlüssel (base64)"
+        }
+      },
+      "delete": {
+        "title": "Schlüssel löschen",
+        "data": {
+          "key_ids": "Zu löschende Schlüssel"
+        }
+      }
+    },
+    "error": {
+      "invalid_key_id": "Die Schlüssel-ID muss aus 12 Hex-Zeichen bestehen",
+      "invalid_public_key": "Kein gültiger base64-kodierter 32-Byte-Ed25519-Schlüssel"
+    },
+    "abort": {
+      "no_keys": "Noch keine Schlüssel vorhanden."
+    }
+  }
+}

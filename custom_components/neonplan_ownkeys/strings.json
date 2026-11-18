@@ -1,0 +1,57 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "NeonPlan own pack keys",
+        "description": "Registers your own Ed25519 public keys in NeonPlan 3D so self-signed furniture packs can be imported. Keys are managed afterwards via the integration's Configure button."
+      }
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_service%]"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "menu_options": {
+          "add": "Add a public key",
+          "generate": "Generate a new signing key",
+          "update": "Update a key",
+          "delete": "Delete keys"
+        }
+      },
+      "add": {
+        "title": "Add public key",
+        "description": "Add an Ed25519 public key (as printed by `fp3dpack.py keygen`) to NeonPlan 3D's trusted publishers.",
+        "data": {
+          "key_id": "Key ID (12 hex characters)",
+          "public_key": "Public key (base64)"
+        }
+      },
+      "generated": {
+        "title": "Signing key created",
+        "description": "The private key was saved to `{path}` — keep it secret and back it up; `fp3dpack.py sign --key {path}` signs packs with it.\n\nPublic key `{key_id}` (`{public_key}`) will be registered when you submit."
+      },
+      "update": {
+        "title": "Update key",
+        "data": {
+          "key_id": "Key",
+          "public_key": "New public key (base64)"
+        }
+      },
+      "delete": {
+        "title": "Delete keys",
+        "data": {
+          "key_ids": "Keys to remove"
+        }
+      }
+    },
+    "error": {
+      "invalid_key_id": "Key ID must be 12 lowercase hex characters",
+      "invalid_public_key": "Not a valid base64-encoded 32-byte Ed25519 public key"
+    },
+    "abort": {
+      "no_keys": "No keys to manage yet."
+    }
+  }
+}

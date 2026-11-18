@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="custom_components/neonplan_ownkeys/brand/icon.png" width="128" alt="NeonPlan own pack keys icon">
+</p>
+
 # NeonPlan own pack keys
 
 Home Assistant custom integration that registers **your own Ed25519 public keys**

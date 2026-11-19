@@ -1,0 +1,46 @@
+name: Sign IKEA pack
+
+on:
+  push:
+    paths:
+      - packs/gen_ikea_pack.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sign:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check out neonplan3d (signing tool)
+        uses: actions/checkout@v4
+        with:
+          repository: Mastershort/neonplan3d
+          path: neonplan3d
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - run: pip install cryptography voluptuous
+
+      - run: python packs/gen_ikea_pack.py
+
+      - name: Sign pack
+        env:
+          PACK_SIGNING_KEY: ${{ secrets.PACK_SIGNING_KEY }}
+        run: |
+          printf '%s' "$PACK_SIGNING_KEY" > "$RUNNER_TEMP/key.pem"
+          python neonplan3d/tools/fp3dpack.py sign packs/ikea.json --key "$RUNNER_TEMP/key.pem"
+          rm -f "$RUNNER_TEMP/key.pem"
+
+      - name: Commit regenerated pack
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add packs/ikea.json packs/ikea.fp3dpack
+          git diff --cached --quiet || git commit -m "Rebuild and sign IKEA pack"
+          git push

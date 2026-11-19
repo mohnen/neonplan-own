@@ -1,0 +1,1836 @@
+{
+ "format": "fp3dpack",
+ "version": 1,
+ "id": "mohnen.jysk",
+ "name": "JYSK",
+ "publisher": "mohnen",
+ "release": 1,
+ "description": "JYSK furniture: Falslev, Vejlby, Kalby, Tylstrup, Vedde, Jenslev and more",
+ "items": [
+  {
+   "id": "falslev_3",
+   "name": {
+    "de": "JYSK Falslev Sofa",
+    "en": "JYSK Falslev 3-seat sofa"
+   },
+   "size": [
+    2.16,
+    0.84,
+    0.78
+   ],
+   "group": "sofa",
+   "room": [
+    "living"
+   ],
+   "tags": [
+    "jysk",
+    "falslev",
+    "sofa"
+   ],
+   "parts": [
+    {
+     "shape": "cyl",
+     "x": -0.42,
+     "z": -0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.42,
+     "z": 0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.42,
+     "z": -0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.42,
+     "z": 0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.167,
+     "h": 0.41600000000000004,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.44,
+     "z": 0,
+     "w": 0.12,
+     "d": 1,
+     "y": 0.167,
+     "h": 0.483,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0.44,
+     "z": 0,
+     "w": 0.12,
+     "d": 1,
+     "y": 0.167,
+     "h": 0.483,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.42,
+     "w": 0.76,
+     "d": 0.16,
+     "y": 0.4,
+     "h": 0.6,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.2533333333333333,
+     "z": 0.14,
+     "w": 0.23333333333333336,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": -0.2533333333333333,
+     "z": -0.25,
+     "w": 0.23333333333333336,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 5.551115123125783e-17,
+     "z": 0.14,
+     "w": 0.23333333333333336,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 5.551115123125783e-17,
+     "z": -0.25,
+     "w": 0.23333333333333336,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0.2533333333333334,
+     "z": 0.14,
+     "w": 0.23333333333333336,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0.2533333333333334,
+     "z": -0.25,
+     "w": 0.23333333333333336,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "vejlby_sofa_bed",
+   "name": {
+    "de": "JYSK Vejlby Schlafsofa",
+    "en": "JYSK Vejlby 3-seat sofa bed"
+   },
+   "size": [
+    2.4,
+    0.88,
+    0.86
+   ],
+   "group": "sofa",
+   "room": [
+    "living"
+   ],
+   "tags": [
+    "jysk",
+    "vejlby",
+    "schlafsofa",
+    "sofa bed"
+   ],
+   "parts": [
+    {
+     "shape": "cyl",
+     "x": -0.42,
+     "z": -0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.42,
+     "z": 0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.42,
+     "z": -0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.42,
+     "z": 0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.167,
+     "h": 0.41600000000000004,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.44,
+     "z": 0,
+     "w": 0.12,
+     "d": 1,
+     "y": 0.167,
+     "h": 0.43299999999999994,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0.44,
+     "z": 0,
+     "w": 0.12,
+     "d": 1,
+     "y": 0.167,
+     "h": 0.43299999999999994,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.42,
+     "w": 0.76,
+     "d": 0.16,
+     "y": 0.4,
+     "h": 0.6,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.2533333333333333,
+     "z": 0.14,
+     "w": 0.23333333333333336,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": -0.2533333333333333,
+     "z": -0.25,
+     "w": 0.23333333333333336,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 5.551115123125783e-17,
+     "z": 0.14,
+     "w": 0.23333333333333336,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 5.551115123125783e-17,
+     "z": -0.25,
+     "w": 0.23333333333333336,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0.2533333333333334,
+     "z": 0.14,
+     "w": 0.23333333333333336,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0.2533333333333334,
+     "z": -0.25,
+     "w": 0.23333333333333336,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "kalby_table",
+   "name": {
+    "de": "JYSK Kalby Tisch",
+    "en": "JYSK Kalby dining table"
+   },
+   "size": [
+    1.6,
+    0.9,
+    0.76
+   ],
+   "group": "table",
+   "room": [
+    "dining"
+   ],
+   "tags": [
+    "jysk",
+    "kalby",
+    "esstisch",
+    "dining"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.94,
+     "h": 0.06,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.425,
+     "z": -0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": -0.425,
+     "z": 0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.425,
+     "z": -0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.425,
+     "z": 0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    }
+   ]
+  },
+  {
+   "id": "munkeby_table",
+   "name": {
+    "de": "JYSK Munkeby Tisch",
+    "en": "JYSK Munkeby dining table"
+   },
+   "size": [
+    1.8,
+    0.9,
+    0.75
+   ],
+   "group": "table",
+   "room": [
+    "dining"
+   ],
+   "tags": [
+    "jysk",
+    "munkeby",
+    "esstisch",
+    "dining"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.94,
+     "h": 0.06,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.425,
+     "z": -0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": -0.425,
+     "z": 0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.425,
+     "z": -0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.425,
+     "z": 0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    }
+   ]
+  },
+  {
+   "id": "tylstrup_table",
+   "name": {
+    "de": "JYSK Tylstrup Tisch",
+    "en": "JYSK Tylstrup dining table"
+   },
+   "size": [
+    1.18,
+    0.75,
+    0.73
+   ],
+   "group": "table",
+   "room": [
+    "dining"
+   ],
+   "tags": [
+    "jysk",
+    "tylstrup",
+    "esstisch",
+    "dining"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.94,
+     "h": 0.06,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.425,
+     "z": -0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": -0.425,
+     "z": 0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.425,
+     "z": -0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.425,
+     "z": 0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    }
+   ]
+  },
+  {
+   "id": "tylstrup_chair",
+   "name": {
+    "de": "JYSK Tylstrup Stuhl",
+    "en": "JYSK Tylstrup chair"
+   },
+   "size": [
+    0.42,
+    0.5,
+    0.86
+   ],
+   "group": "seating",
+   "room": [
+    "dining"
+   ],
+   "tags": [
+    "jysk",
+    "tylstrup",
+    "stuhl",
+    "chair"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9,
+     "d": 0.9,
+     "y": 0.42,
+     "h": 0.08,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.42,
+     "w": 0.85,
+     "d": 0.06,
+     "y": 0.42,
+     "h": 0.55,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.38,
+     "z": -0.38,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.42,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": -0.38,
+     "z": 0.38,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.42,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.38,
+     "z": -0.38,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.42,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.38,
+     "z": 0.38,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.42,
+     "color": "wood"
+    }
+   ]
+  },
+  {
+   "id": "jonstrup_chair",
+   "name": {
+    "de": "JYSK Jonstrup Stuhl",
+    "en": "JYSK Jonstrup dining chair"
+   },
+   "size": [
+    0.45,
+    0.54,
+    0.88
+   ],
+   "group": "seating",
+   "room": [
+    "dining"
+   ],
+   "tags": [
+    "jysk",
+    "jonstrup",
+    "stuhl",
+    "chair"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9,
+     "d": 0.9,
+     "y": 0.42,
+     "h": 0.08,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.42,
+     "w": 0.85,
+     "d": 0.06,
+     "y": 0.42,
+     "h": 0.55,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.38,
+     "z": -0.38,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.42,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": -0.38,
+     "z": 0.38,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.42,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.38,
+     "z": -0.38,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.42,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.38,
+     "z": 0.38,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.42,
+     "color": "wood"
+    }
+   ]
+  },
+  {
+   "id": "vedde_bed",
+   "name": {
+    "de": "JYSK Vedde Bett 160",
+    "en": "JYSK Vedde bed 160x200"
+   },
+   "size": [
+    1.7,
+    2.07,
+    1.01
+   ],
+   "group": "bed",
+   "room": [
+    "bedroom"
+   ],
+   "tags": [
+    "jysk",
+    "vedde",
+    "bett",
+    "bed"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.47,
+     "w": 1,
+     "d": 0.06,
+     "y": 0,
+     "h": 1.0,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.47,
+     "w": 1,
+     "d": 0.06,
+     "y": 0,
+     "h": 0.38,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.47,
+     "z": 0,
+     "w": 0.06,
+     "d": 0.94,
+     "y": 0.05,
+     "h": 0.33,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.47,
+     "z": 0,
+     "w": 0.06,
+     "d": 0.94,
+     "y": 0.05,
+     "h": 0.33,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9,
+     "d": 0.88,
+     "y": 0.3,
+     "h": 0.22,
+     "color": "fabric"
+    },
+    {
+     "shape": "box",
+     "x": -0.44,
+     "z": -0.44,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.05,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": 0.44,
+     "z": -0.44,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.05,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": -0.44,
+     "z": 0.44,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.05,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": 0.44,
+     "z": 0.44,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.05,
+     "color": "dark"
+    }
+   ]
+  },
+  {
+   "id": "kabdrup_night",
+   "name": {
+    "de": "JYSK Kabdrup Nachttisch",
+    "en": "JYSK Kabdrup bedside table"
+   },
+   "size": [
+    0.41,
+    0.32,
+    0.48
+   ],
+   "group": "storage",
+   "room": [
+    "bedroom"
+   ],
+   "tags": [
+    "jysk",
+    "kabdrup",
+    "nachttisch",
+    "nightstand"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.06,
+     "h": 0.94,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.92,
+     "d": 0.92,
+     "y": 0,
+     "h": 0.06,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.06999999999999999,
+     "h": 0.8799999999999999,
+     "color": "front",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "limfjorden_chest4",
+   "name": {
+    "de": "JYSK Limfjorden Kommode",
+    "en": "JYSK Limfjorden chest of 4 drawers"
+   },
+   "size": [
+    0.81,
+    0.48,
+    1.01
+   ],
+   "group": "storage",
+   "room": [
+    "bedroom"
+   ],
+   "tags": [
+    "jysk",
+    "limfjorden",
+    "kommode",
+    "chest"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.06,
+     "h": 0.94,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.92,
+     "d": 0.92,
+     "y": 0,
+     "h": 0.06,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.06999999999999999,
+     "h": 0.205,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.295,
+     "h": 0.205,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.5199999999999999,
+     "h": 0.205,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.7449999999999999,
+     "h": 0.205,
+     "color": "front",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "jenslev_wardrobe",
+   "name": {
+    "de": "JYSK Jenslev Schrank",
+    "en": "JYSK Jenslev wardrobe 3 doors"
+   },
+   "size": [
+    1.44,
+    0.5,
+    1.76
+   ],
+   "group": "storage",
+   "room": [
+    "bedroom"
+   ],
+   "tags": [
+    "jysk",
+    "jenslev",
+    "kleiderschrank",
+    "wardrobe"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.04,
+     "h": 0.96,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.96,
+     "d": 0.96,
+     "y": 0,
+     "h": 0.04,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": -0.31333333333333335,
+     "z": 0.48,
+     "w": 0.3033333333333333,
+     "d": 0.04,
+     "y": 0.06,
+     "h": 0.9,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.23500000000000004,
+     "z": 0.5,
+     "w": 0.008,
+     "d": 0.01,
+     "y": 0.5,
+     "h": 0.1,
+     "color": "metal"
+    },
+    {
+     "shape": "box",
+     "x": -5.551115123125783e-17,
+     "z": 0.48,
+     "w": 0.3033333333333333,
+     "d": 0.04,
+     "y": 0.06,
+     "h": 0.9,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.07833333333333327,
+     "z": 0.5,
+     "w": 0.008,
+     "d": 0.01,
+     "y": 0.5,
+     "h": 0.1,
+     "color": "metal"
+    },
+    {
+     "shape": "box",
+     "x": 0.31333333333333324,
+     "z": 0.48,
+     "w": 0.3033333333333333,
+     "d": 0.04,
+     "y": 0.06,
+     "h": 0.9,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.39166666666666655,
+     "z": 0.5,
+     "w": 0.008,
+     "d": 0.01,
+     "y": 0.5,
+     "h": 0.1,
+     "color": "metal"
+    }
+   ]
+  },
+  {
+   "id": "stavanger_desk",
+   "name": {
+    "de": "JYSK Stavanger Schreibtisch",
+    "en": "JYSK Stavanger desk"
+   },
+   "size": [
+    1.6,
+    0.8,
+    0.75
+   ],
+   "group": "office",
+   "room": [
+    "office"
+   ],
+   "tags": [
+    "jysk",
+    "stavanger",
+    "schreibtisch",
+    "desk"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.94,
+     "h": 0.06,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.425,
+     "z": -0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": -0.425,
+     "z": 0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.425,
+     "z": -0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.425,
+     "z": 0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    }
+   ]
+  },
+  {
+   "id": "dalmose_chair",
+   "name": {
+    "de": "JYSK Dalmose Bürostuhl",
+    "en": "JYSK Dalmose office chair"
+   },
+   "size": [
+    0.62,
+    0.61,
+    0.98
+   ],
+   "group": "office",
+   "room": [
+    "office"
+   ],
+   "tags": [
+    "jysk",
+    "dalmose",
+    "buerostuhl",
+    "office chair"
+   ],
+   "parts": [
+    {
+     "shape": "cyl",
+     "x": 0,
+     "z": 0,
+     "w": 0.07,
+     "d": 0.07,
+     "y": 0.1,
+     "h": 0.32,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0,
+     "z": 0,
+     "w": 0.5,
+     "d": 0.5,
+     "y": 0.06,
+     "h": 0.05,
+     "color": "metal",
+     "axis": "x"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.03,
+     "w": 0.55,
+     "d": 0.5,
+     "y": 0.38,
+     "h": 0.09,
+     "color": "dark",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.28,
+     "w": 0.55,
+     "d": 0.08,
+     "y": 0.45,
+     "h": 0.5,
+     "color": "dark",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.28,
+     "w": 0.4,
+     "d": 0.08,
+     "y": 0.95,
+     "h": 0.05,
+     "color": "dark"
+    }
+   ]
+  },
+  {
+   "id": "horsens_shelf",
+   "name": {
+    "de": "JYSK Horsens Regal",
+    "en": "JYSK Horsens bookcase 5 shelves"
+   },
+   "size": [
+    0.7,
+    0.3,
+    1.97
+   ],
+   "group": "storage",
+   "room": [
+    "living"
+   ],
+   "tags": [
+    "jysk",
+    "horsens",
+    "regal",
+    "bookcase"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.965,
+     "h": 0.035,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.0,
+     "h": 0.035,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": -0.4825,
+     "z": 0,
+     "w": 0.035,
+     "d": 1,
+     "y": 0.0,
+     "h": 1.0,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0.4825,
+     "z": 0,
+     "w": 0.035,
+     "d": 1,
+     "y": 0.0,
+     "h": 1.0,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9299999999999999,
+     "d": 0.96,
+     "y": 0.2385,
+     "h": 0.035,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9299999999999999,
+     "d": 0.96,
+     "y": 0.42450000000000004,
+     "h": 0.035,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9299999999999999,
+     "d": 0.96,
+     "y": 0.6105,
+     "h": 0.035,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9299999999999999,
+     "d": 0.96,
+     "y": 0.7965,
+     "h": 0.035,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "id": "haldager_16",
+   "name": {
+    "de": "JYSK Haldager Raumteiler",
+    "en": "JYSK Haldager room divider 16 cubes"
+   },
+   "size": [
+    1.4,
+    0.35,
+    1.47
+   ],
+   "group": "storage",
+   "room": [
+    "living"
+   ],
+   "tags": [
+    "jysk",
+    "haldager",
+    "raumteiler",
+    "room divider",
+    "cube shelf"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.965,
+     "h": 0.035,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.0,
+     "h": 0.035,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": -0.4825,
+     "z": 0,
+     "w": 0.035,
+     "d": 1,
+     "y": 0.0,
+     "h": 1.0,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0.4825,
+     "z": 0,
+     "w": 0.035,
+     "d": 1,
+     "y": 0.0,
+     "h": 1.0,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.25,
+     "z": 0,
+     "w": 0.035,
+     "d": 0.96,
+     "y": 0.035,
+     "h": 0.9299999999999999,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0.0,
+     "z": 0,
+     "w": 0.035,
+     "d": 0.96,
+     "y": 0.035,
+     "h": 0.9299999999999999,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0.25,
+     "z": 0,
+     "w": 0.035,
+     "d": 0.96,
+     "y": 0.035,
+     "h": 0.9299999999999999,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9299999999999999,
+     "d": 0.96,
+     "y": 0.285,
+     "h": 0.035,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9299999999999999,
+     "d": 0.96,
+     "y": 0.5175,
+     "h": 0.035,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9299999999999999,
+     "d": 0.96,
+     "y": 0.75,
+     "h": 0.035,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "id": "farsund_tv",
+   "name": {
+    "de": "JYSK Farsund TV-Bank",
+    "en": "JYSK Farsund TV bench"
+   },
+   "size": [
+    1.6,
+    0.4,
+    0.55
+   ],
+   "group": "media",
+   "room": [
+    "living"
+   ],
+   "tags": [
+    "jysk",
+    "farsund",
+    "tv",
+    "tv bench"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.18,
+     "h": 0.76,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.94,
+     "d": 0.9,
+     "y": 0.1,
+     "h": 0.08,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": -0.25,
+     "z": 0.48,
+     "w": 0.44,
+     "d": 0.04,
+     "y": 0.22,
+     "h": 0.68,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0.25,
+     "z": 0.48,
+     "w": 0.44,
+     "d": 0.04,
+     "y": 0.22,
+     "h": 0.68,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.44,
+     "z": -0.4,
+     "w": 0.02,
+     "d": 0.04,
+     "y": 0,
+     "h": 0.1,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.44,
+     "z": -0.4,
+     "w": 0.02,
+     "d": 0.04,
+     "y": 0,
+     "h": 0.1,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.44,
+     "z": 0.4,
+     "w": 0.02,
+     "d": 0.04,
+     "y": 0,
+     "h": 0.1,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.44,
+     "z": 0.4,
+     "w": 0.02,
+     "d": 0.04,
+     "y": 0,
+     "h": 0.1,
+     "color": "metal"
+    }
+   ]
+  },
+  {
+   "id": "bagenkop_shoe",
+   "name": {
+    "de": "JYSK Bagenkop Schuhschrank",
+    "en": "JYSK Bagenkop shoe cabinet 3 comp"
+   },
+   "size": [
+    0.65,
+    0.26,
+    1.0
+   ],
+   "group": "storage",
+   "room": [
+    "hall"
+   ],
+   "tags": [
+    "jysk",
+    "bagenkop",
+    "schuhschrank",
+    "shoe cabinet"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0,
+     "h": 1,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.46,
+     "w": 0.92,
+     "d": 0.06,
+     "y": 0.03,
+     "h": 0.2933333333333333,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.46,
+     "w": 0.92,
+     "d": 0.06,
+     "y": 0.34333333333333327,
+     "h": 0.2933333333333333,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.46,
+     "w": 0.92,
+     "d": 0.06,
+     "y": 0.6566666666666666,
+     "h": 0.2933333333333333,
+     "color": "front",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "lejre_coffee",
+   "name": {
+    "de": "JYSK Lejre Couchtisch",
+    "en": "JYSK Lejre coffee table"
+   },
+   "size": [
+    1.2,
+    0.6,
+    0.45
+   ],
+   "group": "table",
+   "room": [
+    "living"
+   ],
+   "tags": [
+    "jysk",
+    "lejre",
+    "couchtisch",
+    "coffee table"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.94,
+     "h": 0.06,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.425,
+     "z": -0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": -0.425,
+     "z": 0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.425,
+     "z": -0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.425,
+     "z": 0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    }
+   ]
+  },
+  {
+   "id": "vedde_coffee",
+   "name": {
+    "de": "JYSK Vedde Couchtisch",
+    "en": "JYSK Vedde coffee table"
+   },
+   "size": [
+    1.1,
+    0.6,
+    0.45
+   ],
+   "group": "table",
+   "room": [
+    "living"
+   ],
+   "tags": [
+    "jysk",
+    "vedde",
+    "couchtisch",
+    "coffee table"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.94,
+     "h": 0.06,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.425,
+     "z": -0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": -0.425,
+     "z": 0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.425,
+     "z": -0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.425,
+     "z": 0.425,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.94,
+     "color": "wood"
+    }
+   ]
+  }
+ ]
+}

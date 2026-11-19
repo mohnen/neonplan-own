@@ -1,9 +1,9 @@
-name: Sign IKEA pack
+name: Sign furniture packs
 
 on:
   push:
     paths:
-      - packs/gen_ikea_pack.py
+      - packs/gen_*.py
   workflow_dispatch:
 
 permissions:
@@ -27,20 +27,26 @@ jobs:
 
       - run: pip install cryptography voluptuous
 
-      - run: python packs/gen_ikea_pack.py
+      - name: Regenerate pack sources
+        run: |
+          for gen in packs/gen_*_pack.py; do
+            python "$gen"
+          done
 
-      - name: Sign pack
+      - name: Sign packs
         env:
           PACK_SIGNING_KEY: ${{ secrets.PACK_SIGNING_KEY }}
         run: |
           printf '%s' "$PACK_SIGNING_KEY" > "$RUNNER_TEMP/key.pem"
-          python neonplan3d/tools/fp3dpack.py sign packs/ikea.json --key "$RUNNER_TEMP/key.pem"
+          for src in packs/*.json; do
+            python neonplan3d/tools/fp3dpack.py sign "$src" --key "$RUNNER_TEMP/key.pem"
+          done
           rm -f "$RUNNER_TEMP/key.pem"
 
-      - name: Commit regenerated pack
+      - name: Commit regenerated packs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add packs/ikea.json packs/ikea.fp3dpack
-          git diff --cached --quiet || git commit -m "Rebuild and sign IKEA pack"
+          git add packs/*.json packs/*.fp3dpack
+          git diff --cached --quiet || git commit -m "Rebuild and sign furniture packs"
           git push

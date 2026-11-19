@@ -7,10 +7,10 @@ Dimensions are the official JYSK "size assembled" specs (W x D x H metres).
 import json
 from pathlib import Path
 
-from gen_ikea_pack import (bed_parts, chair_parts, chest_parts, item,
-                           office_chair_parts, shelf_parts, shoe_cabinet_parts,
-                           sofa_parts, table_parts, tv_bench_parts,
-                           wardrobe_parts, LIVING)
+from gen_ikea_pack import (armchair_parts, bed_parts, chair_parts, chest_parts,
+                           item, office_chair_parts, shelf_parts,
+                           shoe_cabinet_parts, sofa_parts, table_parts,
+                           tv_bench_parts, wardrobe_parts, LIVING)
 
 DINING, BEDROOM, OFFICE, HALL = "dining", "bedroom", "office", "hall"
 
@@ -22,6 +22,9 @@ ITEMS = [
     item("vejlby_sofa_bed", "JYSK Vejlby Schlafsofa", "JYSK Vejlby 3-seat sofa bed", [2.4, 0.88, 0.86],
          sofa_parts(seat_top=0.57, arm_top=0.6, cushions=3), "sofa", [LIVING],
          ["jysk", "vejlby", "schlafsofa", "sofa bed"]),
+    item("hundested_armchair", "JYSK Hundested Sessel", "JYSK Hundested armchair",
+         [0.72, 0.8, 0.98], armchair_parts(seat_top=0.46, arm_top=0.66, leg_h=0.08),
+         "seating", [LIVING], ["jysk", "hundested", "sessel", "armchair", "teddy"]),
 
     # dining room
     item("kalby_table", "JYSK Kalby Tisch", "JYSK Kalby dining table", [1.6, 0.9, 0.76],
@@ -79,7 +82,7 @@ def main():
         "id": "mohnen.jysk",
         "name": "JYSK",
         "publisher": "mohnen",
-        "release": 1,
+        "release": 2,
         "description": "JYSK furniture: Falslev, Vejlby, Kalby, Tylstrup, Vedde, Jenslev and more",
         "items": ITEMS,
     }

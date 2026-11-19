@@ -5,7 +5,7 @@
   "id": "mohnen.jysk",
   "name": "JYSK",
   "publisher": "mohnen",
-  "release": 1,
+  "release": 2,
   "description": "JYSK furniture: Falslev, Vejlby, Kalby, Tylstrup, Vedde, Jenslev and more",
   "items": [
    {
@@ -350,6 +350,137 @@
       "d": 0.18,
       "y": 0.5,
       "h": 0.45,
+      "color": "cushion",
+      "edges": "faint"
+     }
+    ]
+   },
+   {
+    "id": "hundested_armchair",
+    "name": {
+     "de": "JYSK Hundested Sessel",
+     "en": "JYSK Hundested armchair"
+    },
+    "size": [
+     0.72,
+     0.8,
+     0.98
+    ],
+    "group": "seating",
+    "room": [
+     "living"
+    ],
+    "tags": [
+     "jysk",
+     "hundested",
+     "sessel",
+     "armchair",
+     "teddy"
+    ],
+    "parts": [
+     {
+      "shape": "cyl",
+      "x": -0.4,
+      "z": -0.4,
+      "w": 0.03,
+      "d": 0.05,
+      "y": 0,
+      "h": 0.08,
+      "color": "wood"
+     },
+     {
+      "shape": "cyl",
+      "x": -0.4,
+      "z": 0.4,
+      "w": 0.03,
+      "d": 0.05,
+      "y": 0,
+      "h": 0.08,
+      "color": "wood"
+     },
+     {
+      "shape": "cyl",
+      "x": 0.4,
+      "z": -0.4,
+      "w": 0.03,
+      "d": 0.05,
+      "y": 0,
+      "h": 0.08,
+      "color": "wood"
+     },
+     {
+      "shape": "cyl",
+      "x": 0.4,
+      "z": 0.4,
+      "w": 0.03,
+      "d": 0.05,
+      "y": 0,
+      "h": 0.08,
+      "color": "wood"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "z": 0,
+      "w": 0.92,
+      "d": 0.92,
+      "y": 0.08,
+      "h": 0.35,
+      "color": "fabric",
+      "edges": true
+     },
+     {
+      "shape": "box",
+      "x": -0.42,
+      "z": 0,
+      "w": 0.14,
+      "d": 0.95,
+      "y": 0.08,
+      "h": 0.66,
+      "color": "fabric",
+      "edges": true
+     },
+     {
+      "shape": "box",
+      "x": 0.42,
+      "z": 0,
+      "w": 0.14,
+      "d": 0.95,
+      "y": 0.08,
+      "h": 0.66,
+      "color": "fabric",
+      "edges": true
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "z": -0.4,
+      "w": 0.72,
+      "d": 0.18,
+      "y": 0.3,
+      "h": 0.7,
+      "color": "fabric",
+      "edges": true
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "z": 0.12,
+      "w": 0.6,
+      "d": 0.6,
+      "y": 0.43,
+      "h": 0.15,
+      "color": "cushion",
+      "edges": "faint"
+     },
+     {
+      "shape": "box",
+      "x": 0,
+      "z": -0.28,
+      "w": 0.6,
+      "d": 0.15,
+      "y": 0.5,
+      "h": 0.42,
       "color": "cushion",
       "edges": "faint"
      }
@@ -1839,6 +1970,6 @@
  },
  "signature": {
   "key": "e43284d2e58f",
-  "sig": "v/HEthK9PgnlD09Wdb+/fggB+pF4L3ArrOazQQ5Lax2SxpjLc3JaSUquHC9bqaRLXgHMBaYA5isRcymwKLKpAg=="
+  "sig": "8t6iUkKN9Nz23d9pbL0q75v5h8guTvvh88NGozQTojOLgMVQSy8cFL8LZ9Fca1GTu0w4bqxSszFKBfzF+ajTCQ=="
  }
 }

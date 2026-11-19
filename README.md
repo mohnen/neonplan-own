@@ -23,6 +23,12 @@ key in `const.py` (`DEFAULT_KEYS`) — delete it via Configure if you don't need
 
 ## Managing keys
 
+The integration also keeps your packs installed: it periodically fetches the
+pack files listed under **Pack sources (auto-install)** (defaults to the
+IKEA and JYSK packs in this repository) and imports any that are missing or
+outdated — so a NeonPlan update or a backup restore can no longer lose them.
+Remove all URLs to disable auto-install.
+
 Settings → Devices & services → NeonPlan own pack keys → **Configure**:
 
 - **Add a public key** — paste the key ID and base64 public key printed by

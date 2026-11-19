@@ -16,7 +16,7 @@ import voluptuous as vol
 from homeassistant.config_entries import ConfigFlow, ConfigFlowResult, OptionsFlow
 from homeassistant.helpers import selector
 
-from .const import CONF_KEYS, DEFAULT_KEYS, DOMAIN, KEY_ID_RE
+from .const import CONF_KEYS, CONF_PACK_SOURCES, DEFAULT_KEYS, DEFAULT_PACK_SOURCES, DOMAIN, KEY_ID_RE
 
 _LOGGER = logging.getLogger(__name__)
 
@@ -59,7 +59,10 @@ class NeonplanOwnkeysOptionsFlow(OptionsFlow):
         return dict(self.config_entry.options.get(CONF_KEYS, {}))
 
     def _save(self, keys: dict[str, str]) -> ConfigFlowResult:
-        return self.async_create_entry(data={CONF_KEYS: keys})
+        # keep options this flow does not manage (e.g. pack_sources)
+        data = dict(self.config_entry.options)
+        data[CONF_KEYS] = keys
+        return self.async_create_entry(data=data)
 
     async def async_step_init(self, user_input: dict[str, Any] | None = None) -> ConfigFlowResult:
         # menu_options as a dict shows these labels directly, without translations
@@ -67,6 +70,7 @@ class NeonplanOwnkeysOptionsFlow(OptionsFlow):
         if self._keys():
             menu["update"] = "Update a key"
             menu["delete"] = "Delete keys"
+        menu["packs"] = "Pack sources (auto-install)"
         return self.async_show_menu(step_id="init", menu_options=menu)
 
     # -- add an existing public key -------------------------------------------------
@@ -152,6 +156,32 @@ class NeonplanOwnkeysOptionsFlow(OptionsFlow):
                         selector.SelectSelectorConfig(options=list(keys), mode="dropdown")
                     ),
                     vol.Required("public_key"): str,
+                }
+            ),
+            errors=errors,
+        )
+
+    # -- pack sources -----------------------------------------------------------------
+
+    async def async_step_packs(self, user_input: dict[str, Any] | None = None) -> ConfigFlowResult:
+        errors: dict[str, str] = {}
+        current = self.config_entry.options.get(CONF_PACK_SOURCES) or list(DEFAULT_PACK_SOURCES)
+        if user_input is not None:
+            sources = [u.strip() for u in user_input["pack_sources"].splitlines() if u.strip()]
+            bad = [u for u in sources if not u.startswith(("http://", "https://"))]
+            if bad:
+                errors["pack_sources"] = "invalid_url"
+            else:
+                data = dict(self.config_entry.options)
+                data[CONF_PACK_SOURCES] = sources
+                return self.async_create_entry(data=data)
+        return self.async_show_form(
+            step_id="packs",
+            data_schema=vol.Schema(
+                {
+                    vol.Required("pack_sources", default="\n".join(current)): selector.TextSelector(
+                        selector.TextSelectorConfig(multiline=True)
+                    )
                 }
             ),
             errors=errors,

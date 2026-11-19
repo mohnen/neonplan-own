@@ -17,7 +17,8 @@
           "add": "Öffentlichen Schlüssel hinzufügen",
           "generate": "Neuen Signierschlüssel erzeugen",
           "update": "Schlüssel aktualisieren",
-          "delete": "Schlüssel löschen"
+          "delete": "Schlüssel löschen",
+          "packs": "Pack-Quellen (Auto-Install)"
         }
       },
       "add": {
@@ -44,11 +45,19 @@
         "data": {
           "key_ids": "Zu löschende Schlüssel"
         }
+      },
+      "packs": {
+        "title": "Pack-Quellen",
+        "description": "Möbel-Packs von diesen URLs werden automatisch in NeonPlan 3D installiert gehalten: nachinstalliert, wenn sie fehlen, und aktualisiert, sobald ein neuer Release erscheint. Eine .fp3dpack-URL pro Zeile; die Liste leeren deaktiviert die Funktion.",
+        "data": {
+          "pack_sources": "Pack-URLs (eine pro Zeile)"
+        }
       }
     },
     "error": {
       "invalid_key_id": "Die Schlüssel-ID muss aus 12 Hex-Zeichen bestehen",
-      "invalid_public_key": "Kein gültiger base64-kodierter 32-Byte-Ed25519-Schlüssel"
+      "invalid_public_key": "Kein gültiger base64-kodierter 32-Byte-Ed25519-Schlüssel",
+      "invalid_url": "Jede Zeile muss eine http(s)-URL sein"
     },
     "abort": {
       "no_keys": "Noch keine Schlüssel vorhanden."

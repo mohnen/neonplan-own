@@ -17,7 +17,8 @@
           "add": "Add a public key",
           "generate": "Generate a new signing key",
           "update": "Update a key",
-          "delete": "Delete keys"
+          "delete": "Delete keys",
+          "packs": "Pack sources (auto-install)"
         }
       },
       "add": {
@@ -44,11 +45,19 @@
         "data": {
           "key_ids": "Keys to remove"
         }
+      },
+      "packs": {
+        "title": "Pack sources",
+        "description": "Furniture packs from these URLs are kept installed in NeonPlan 3D automatically: re-installed when missing and updated when a newer release is published. One .fp3dpack URL per line; empty the list to disable.",
+        "data": {
+          "pack_sources": "Pack URLs (one per line)"
+        }
       }
     },
     "error": {
       "invalid_key_id": "Key ID must be 12 lowercase hex characters",
-      "invalid_public_key": "Not a valid base64-encoded 32-byte Ed25519 public key"
+      "invalid_public_key": "Not a valid base64-encoded 32-byte Ed25519 public key",
+      "invalid_url": "Every line must be an http(s) URL"
     },
     "abort": {
       "no_keys": "No keys to manage yet."

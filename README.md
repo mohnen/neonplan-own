@@ -32,3 +32,24 @@ Settings → Devices & services → NeonPlan own pack keys → **Configure**:
   `config/neonplan_ownkeys/<key_id>.pem`
 - **Update a key** — replace the public key of an existing key ID
 - **Delete keys** — remove keys; changes apply immediately, no restart needed
+
+## IKEA furniture pack
+
+`packs/` contains a self-signed furniture pack with 45 IKEA models
+(Klippan, Kallax, Billy, Malm, Pax, Lack, Bestå and more, official
+dimensions):
+
+- `ikea.fp3dpack` — the signed pack, ready to import (NeonPlan →
+  Editor → Möbel → Möbel-Pack importieren)
+- `ikea.json` — generated pack source (don't edit by hand)
+- `gen_ikea_pack.py` — generator; add items, then rebuild + re-sign:
+
+```bash
+python gen_ikea_pack.py
+uv run --with cryptography --with voluptuous tools/fp3dpack.py sign \
+  packs/ikea.json --key pack-signing-key.pem
+```
+
+The signing key is **not** part of this repository. Its public key
+(`e43284d2e58f`) is seeded as the default key in `const.py`, so the pack
+imports out of the box once this integration is set up.

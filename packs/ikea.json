@@ -1,0 +1,5059 @@
+{
+ "format": "fp3dpack",
+ "version": 1,
+ "id": "mohnen.ikea",
+ "name": "IKEA",
+ "publisher": "mohnen",
+ "release": 6,
+ "description": "IKEA furniture: Klippan, Kallax, Billy, Malm, Pax, Lack, Besta and more",
+ "items": [
+  {
+   "id": "klippan_sofa",
+   "name": {
+    "de": "IKEA Klippan Sofa",
+    "en": "IKEA Klippan sofa"
+   },
+   "size": [
+    1.8,
+    0.88,
+    0.66
+   ],
+   "group": "sofa",
+   "room": [
+    "living"
+   ],
+   "tags": [
+    "ikea",
+    "klippan",
+    "couch",
+    "sofa"
+   ],
+   "parts": [
+    {
+     "shape": "cyl",
+     "x": -0.42,
+     "z": -0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.42,
+     "z": -0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.42,
+     "z": 0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.42,
+     "z": 0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.167,
+     "h": 0.283,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.44,
+     "z": 0,
+     "w": 0.12,
+     "d": 1,
+     "y": 0.167,
+     "h": 0.683,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0.44,
+     "z": 0,
+     "w": 0.12,
+     "d": 1,
+     "y": 0.167,
+     "h": 0.683,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.42,
+     "w": 0.76,
+     "d": 0.16,
+     "y": 0.4,
+     "h": 0.6,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.19,
+     "z": 0.14,
+     "w": 0.36,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0.19,
+     "z": 0.14,
+     "w": 0.36,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": -0.19,
+     "z": -0.25,
+     "w": 0.36,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0.19,
+     "z": -0.25,
+     "w": 0.36,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    }
+   ],
+   "symbol": [
+    {
+     "shape": "rect",
+     "x": 0,
+     "z": 0,
+     "w": 1.0,
+     "d": 1.0
+    },
+    {
+     "shape": "line",
+     "x1": 0,
+     "z1": -0.28,
+     "x2": 0,
+     "z2": 0.42
+    }
+   ]
+  },
+  {
+   "id": "kivik_2",
+   "name": {
+    "de": "IKEA Kivik Sofa",
+    "en": "IKEA Kivik 2-seat sofa"
+   },
+   "size": [
+    1.9,
+    0.95,
+    0.83
+   ],
+   "group": "sofa",
+   "room": [
+    "living"
+   ],
+   "tags": [
+    "ikea",
+    "kivik",
+    "sofa"
+   ],
+   "parts": [
+    {
+     "shape": "cyl",
+     "x": -0.42,
+     "z": -0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.42,
+     "z": 0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.42,
+     "z": -0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.42,
+     "z": 0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.167,
+     "h": 0.41600000000000004,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.44,
+     "z": 0,
+     "w": 0.12,
+     "d": 1,
+     "y": 0.167,
+     "h": 0.43299999999999994,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0.44,
+     "z": 0,
+     "w": 0.12,
+     "d": 1,
+     "y": 0.167,
+     "h": 0.43299999999999994,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.42,
+     "w": 0.76,
+     "d": 0.16,
+     "y": 0.4,
+     "h": 0.6,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.19,
+     "z": 0.14,
+     "w": 0.36,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": -0.19,
+     "z": -0.25,
+     "w": 0.36,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0.19,
+     "z": 0.14,
+     "w": 0.36,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0.19,
+     "z": -0.25,
+     "w": 0.36,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "soderhamn_3",
+   "name": {
+    "de": "IKEA Söderhamn Sofa",
+    "en": "IKEA Söderhamn 3-seat sofa"
+   },
+   "size": [
+    1.98,
+    0.99,
+    0.83
+   ],
+   "group": "sofa",
+   "room": [
+    "living"
+   ],
+   "tags": [
+    "ikea",
+    "soderhamn",
+    "sofa"
+   ],
+   "parts": [
+    {
+     "shape": "cyl",
+     "x": -0.42,
+     "z": -0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.42,
+     "z": 0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.42,
+     "z": -0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.42,
+     "z": 0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.167,
+     "h": 0.41600000000000004,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.44,
+     "z": 0,
+     "w": 0.12,
+     "d": 1,
+     "y": 0.167,
+     "h": 0.383,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0.44,
+     "z": 0,
+     "w": 0.12,
+     "d": 1,
+     "y": 0.167,
+     "h": 0.383,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.42,
+     "w": 0.76,
+     "d": 0.16,
+     "y": 0.4,
+     "h": 0.6,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.2533333333333333,
+     "z": 0.14,
+     "w": 0.23333333333333336,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": -0.2533333333333333,
+     "z": -0.25,
+     "w": 0.23333333333333336,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 5.551115123125783e-17,
+     "z": 0.14,
+     "w": 0.23333333333333336,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 5.551115123125783e-17,
+     "z": -0.25,
+     "w": 0.23333333333333336,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0.2533333333333334,
+     "z": 0.14,
+     "w": 0.23333333333333336,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0.2533333333333334,
+     "z": -0.25,
+     "w": 0.23333333333333336,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "vimle_3",
+   "name": {
+    "de": "IKEA Vimle Sofa",
+    "en": "IKEA Vimle 3-seat sofa"
+   },
+   "size": [
+    2.41,
+    0.98,
+    0.83
+   ],
+   "group": "sofa",
+   "room": [
+    "living"
+   ],
+   "tags": [
+    "ikea",
+    "vimle",
+    "sofa"
+   ],
+   "parts": [
+    {
+     "shape": "cyl",
+     "x": -0.42,
+     "z": -0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.42,
+     "z": 0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.42,
+     "z": -0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.42,
+     "z": 0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.167,
+     "h": 0.41600000000000004,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.44,
+     "z": 0,
+     "w": 0.12,
+     "d": 1,
+     "y": 0.167,
+     "h": 0.513,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0.44,
+     "z": 0,
+     "w": 0.12,
+     "d": 1,
+     "y": 0.167,
+     "h": 0.513,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.42,
+     "w": 0.76,
+     "d": 0.16,
+     "y": 0.4,
+     "h": 0.6,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.2533333333333333,
+     "z": 0.14,
+     "w": 0.23333333333333336,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": -0.2533333333333333,
+     "z": -0.25,
+     "w": 0.23333333333333336,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 5.551115123125783e-17,
+     "z": 0.14,
+     "w": 0.23333333333333336,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 5.551115123125783e-17,
+     "z": -0.25,
+     "w": 0.23333333333333336,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0.2533333333333334,
+     "z": 0.14,
+     "w": 0.23333333333333336,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0.2533333333333334,
+     "z": -0.25,
+     "w": 0.23333333333333336,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "ektorp_3",
+   "name": {
+    "de": "IKEA Ektorp Sofa",
+    "en": "IKEA Ektorp 3-seat sofa"
+   },
+   "size": [
+    2.18,
+    0.88,
+    0.88
+   ],
+   "group": "sofa",
+   "room": [
+    "living"
+   ],
+   "tags": [
+    "ikea",
+    "ektorp",
+    "sofa"
+   ],
+   "parts": [
+    {
+     "shape": "cyl",
+     "x": -0.42,
+     "z": -0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.05,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.42,
+     "z": 0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.05,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.42,
+     "z": -0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.05,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.42,
+     "z": 0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.05,
+     "color": "metal"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.05,
+     "h": 0.533,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.44,
+     "z": 0,
+     "w": 0.12,
+     "d": 1,
+     "y": 0.05,
+     "h": 0.7,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0.44,
+     "z": 0,
+     "w": 0.12,
+     "d": 1,
+     "y": 0.05,
+     "h": 0.7,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.42,
+     "w": 0.76,
+     "d": 0.16,
+     "y": 0.4,
+     "h": 0.6,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.2533333333333333,
+     "z": 0.14,
+     "w": 0.23333333333333336,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": -0.2533333333333333,
+     "z": -0.25,
+     "w": 0.23333333333333336,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 5.551115123125783e-17,
+     "z": 0.14,
+     "w": 0.23333333333333336,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 5.551115123125783e-17,
+     "z": -0.25,
+     "w": 0.23333333333333336,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0.2533333333333334,
+     "z": 0.14,
+     "w": 0.23333333333333336,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0.2533333333333334,
+     "z": -0.25,
+     "w": 0.23333333333333336,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "friheten",
+   "name": {
+    "de": "IKEA Friheten Schlafsofa",
+    "en": "IKEA Friheten sofa bed"
+   },
+   "size": [
+    2.25,
+    1.05,
+    0.83
+   ],
+   "group": "sofa",
+   "room": [
+    "living"
+   ],
+   "tags": [
+    "ikea",
+    "friheten",
+    "sofa",
+    "schlafsofa",
+    "sofa bed"
+   ],
+   "parts": [
+    {
+     "shape": "cyl",
+     "x": -0.42,
+     "z": -0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.42,
+     "z": 0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.42,
+     "z": -0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.42,
+     "z": 0.38,
+     "w": 0.022,
+     "d": 0.045,
+     "y": 0,
+     "h": 0.167,
+     "color": "metal"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.167,
+     "h": 0.41600000000000004,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.44,
+     "z": 0,
+     "w": 0.12,
+     "d": 1,
+     "y": 0.167,
+     "h": 0.45299999999999996,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0.44,
+     "z": 0,
+     "w": 0.12,
+     "d": 1,
+     "y": 0.167,
+     "h": 0.45299999999999996,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.42,
+     "w": 0.76,
+     "d": 0.16,
+     "y": 0.4,
+     "h": 0.6,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.2533333333333333,
+     "z": 0.14,
+     "w": 0.23333333333333336,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": -0.2533333333333333,
+     "z": -0.25,
+     "w": 0.23333333333333336,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 5.551115123125783e-17,
+     "z": 0.14,
+     "w": 0.23333333333333336,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 5.551115123125783e-17,
+     "z": -0.25,
+     "w": 0.23333333333333336,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0.2533333333333334,
+     "z": 0.14,
+     "w": 0.23333333333333336,
+     "d": 0.68,
+     "y": 0.45,
+     "h": 0.2,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0.2533333333333334,
+     "z": -0.25,
+     "w": 0.23333333333333336,
+     "d": 0.18,
+     "y": 0.5,
+     "h": 0.45,
+     "color": "cushion",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "poang",
+   "name": {
+    "de": "IKEA Poäng Sessel",
+    "en": "IKEA Poäng armchair"
+   },
+   "size": [
+    0.68,
+    0.82,
+    1.0
+   ],
+   "group": "seating",
+   "room": [
+    "living"
+   ],
+   "tags": [
+    "ikea",
+    "poang",
+    "sessel",
+    "armchair"
+   ],
+   "parts": [
+    {
+     "shape": "cyl",
+     "x": -0.4,
+     "z": -0.4,
+     "w": 0.03,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.08,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.4,
+     "z": 0.4,
+     "w": 0.03,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.08,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.4,
+     "z": -0.4,
+     "w": 0.03,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.08,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.4,
+     "z": 0.4,
+     "w": 0.03,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.08,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.92,
+     "d": 0.92,
+     "y": 0.08,
+     "h": 0.35,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.42,
+     "z": 0,
+     "w": 0.14,
+     "d": 0.95,
+     "y": 0.08,
+     "h": 0.55,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0.42,
+     "z": 0,
+     "w": 0.14,
+     "d": 0.95,
+     "y": 0.08,
+     "h": 0.55,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.4,
+     "w": 0.72,
+     "d": 0.18,
+     "y": 0.3,
+     "h": 0.7,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.12,
+     "w": 0.6,
+     "d": 0.6,
+     "y": 0.43,
+     "h": 0.15,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.28,
+     "w": 0.6,
+     "d": 0.15,
+     "y": 0.5,
+     "h": 0.42,
+     "color": "cushion",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "strandmon",
+   "name": {
+    "de": "IKEA Strandmon Ohrensessel",
+    "en": "IKEA Strandmon wing chair"
+   },
+   "size": [
+    0.82,
+    0.96,
+    1.01
+   ],
+   "group": "seating",
+   "room": [
+    "living"
+   ],
+   "tags": [
+    "ikea",
+    "strandmon",
+    "ohrensessel",
+    "wing chair"
+   ],
+   "parts": [
+    {
+     "shape": "cyl",
+     "x": -0.4,
+     "z": -0.4,
+     "w": 0.03,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.12,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.4,
+     "z": 0.4,
+     "w": 0.03,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.12,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.4,
+     "z": -0.4,
+     "w": 0.03,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.12,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.4,
+     "z": 0.4,
+     "w": 0.03,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.12,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.92,
+     "d": 0.92,
+     "y": 0.12,
+     "h": 0.35,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.42,
+     "z": 0,
+     "w": 0.14,
+     "d": 0.95,
+     "y": 0.12,
+     "h": 0.7,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0.42,
+     "z": 0,
+     "w": 0.14,
+     "d": 0.95,
+     "y": 0.12,
+     "h": 0.7,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.4,
+     "w": 0.72,
+     "d": 0.18,
+     "y": 0.3,
+     "h": 0.7,
+     "color": "fabric",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.12,
+     "w": 0.6,
+     "d": 0.6,
+     "y": 0.47,
+     "h": 0.15,
+     "color": "cushion",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.28,
+     "w": 0.6,
+     "d": 0.15,
+     "y": 0.5,
+     "h": 0.42,
+     "color": "cushion",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "kallax_4x4",
+   "name": {
+    "de": "IKEA Kallax Regal 4x4",
+    "en": "IKEA Kallax shelf 4x4"
+   },
+   "size": [
+    1.47,
+    0.39,
+    1.47
+   ],
+   "group": "storage",
+   "room": [
+    "living",
+    "office",
+    "kids"
+   ],
+   "tags": [
+    "ikea",
+    "kallax",
+    "regal",
+    "shelf"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.965,
+     "h": 0.035,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.0,
+     "h": 0.035,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": -0.4825,
+     "z": 0,
+     "w": 0.035,
+     "d": 1,
+     "y": 0.0,
+     "h": 1.0,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0.4825,
+     "z": 0,
+     "w": 0.035,
+     "d": 1,
+     "y": 0.0,
+     "h": 1.0,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.25,
+     "z": 0,
+     "w": 0.035,
+     "d": 0.96,
+     "y": 0.035,
+     "h": 0.9299999999999999,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0.0,
+     "z": 0,
+     "w": 0.035,
+     "d": 0.96,
+     "y": 0.035,
+     "h": 0.9299999999999999,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0.25,
+     "z": 0,
+     "w": 0.035,
+     "d": 0.96,
+     "y": 0.035,
+     "h": 0.9299999999999999,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9299999999999999,
+     "d": 0.96,
+     "y": 0.285,
+     "h": 0.035,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9299999999999999,
+     "d": 0.96,
+     "y": 0.5175,
+     "h": 0.035,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9299999999999999,
+     "d": 0.96,
+     "y": 0.75,
+     "h": 0.035,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "id": "kallax_2x4",
+   "name": {
+    "de": "IKEA Kallax Regal 2x4",
+    "en": "IKEA Kallax shelf 2x4"
+   },
+   "size": [
+    1.47,
+    0.39,
+    0.77
+   ],
+   "group": "storage",
+   "room": [
+    "living",
+    "office",
+    "kids"
+   ],
+   "tags": [
+    "ikea",
+    "kallax",
+    "regal",
+    "shelf"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.965,
+     "h": 0.035,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.0,
+     "h": 0.035,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": -0.4825,
+     "z": 0,
+     "w": 0.035,
+     "d": 1,
+     "y": 0.0,
+     "h": 1.0,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0.4825,
+     "z": 0,
+     "w": 0.035,
+     "d": 1,
+     "y": 0.0,
+     "h": 1.0,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.25,
+     "z": 0,
+     "w": 0.035,
+     "d": 0.96,
+     "y": 0.035,
+     "h": 0.9299999999999999,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0.0,
+     "z": 0,
+     "w": 0.035,
+     "d": 0.96,
+     "y": 0.035,
+     "h": 0.9299999999999999,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0.25,
+     "z": 0,
+     "w": 0.035,
+     "d": 0.96,
+     "y": 0.035,
+     "h": 0.9299999999999999,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9299999999999999,
+     "d": 0.96,
+     "y": 0.5175,
+     "h": 0.035,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "id": "kallax_1x4",
+   "name": {
+    "de": "IKEA Kallax Regal 1x4",
+    "en": "IKEA Kallax shelf 1x4"
+   },
+   "size": [
+    0.42,
+    0.39,
+    1.47
+   ],
+   "group": "storage",
+   "room": [
+    "living",
+    "office"
+   ],
+   "tags": [
+    "ikea",
+    "kallax",
+    "regal",
+    "shelf"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.965,
+     "h": 0.035,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.0,
+     "h": 0.035,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": -0.4825,
+     "z": 0,
+     "w": 0.035,
+     "d": 1,
+     "y": 0.0,
+     "h": 1.0,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0.4825,
+     "z": 0,
+     "w": 0.035,
+     "d": 1,
+     "y": 0.0,
+     "h": 1.0,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9299999999999999,
+     "d": 0.96,
+     "y": 0.285,
+     "h": 0.035,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9299999999999999,
+     "d": 0.96,
+     "y": 0.5175,
+     "h": 0.035,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9299999999999999,
+     "d": 0.96,
+     "y": 0.75,
+     "h": 0.035,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "id": "billy",
+   "name": {
+    "de": "IKEA Billy Bücherregal",
+    "en": "IKEA Billy bookcase"
+   },
+   "size": [
+    0.8,
+    0.28,
+    2.02
+   ],
+   "group": "storage",
+   "room": [
+    "living",
+    "office"
+   ],
+   "tags": [
+    "ikea",
+    "billy",
+    "regal",
+    "bookcase",
+    "bücherregal"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.97,
+     "h": 0.03,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.0,
+     "h": 0.03,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": -0.485,
+     "z": 0,
+     "w": 0.03,
+     "d": 1,
+     "y": 0.0,
+     "h": 1.0,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0.485,
+     "z": 0,
+     "w": 0.03,
+     "d": 1,
+     "y": 0.0,
+     "h": 1.0,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.94,
+     "d": 0.96,
+     "y": 0.20166666666666666,
+     "h": 0.03,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.94,
+     "d": 0.96,
+     "y": 0.3583333333333333,
+     "h": 0.03,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.94,
+     "d": 0.96,
+     "y": 0.515,
+     "h": 0.03,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.94,
+     "d": 0.96,
+     "y": 0.6716666666666666,
+     "h": 0.03,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.94,
+     "d": 0.96,
+     "y": 0.8283333333333333,
+     "h": 0.03,
+     "color": "wood"
+    }
+   ]
+  },
+  {
+   "id": "billy_low",
+   "name": {
+    "de": "IKEA Billy Regal niedrig",
+    "en": "IKEA Billy bookcase low"
+   },
+   "size": [
+    0.8,
+    0.28,
+    1.06
+   ],
+   "group": "storage",
+   "room": [
+    "living",
+    "office"
+   ],
+   "tags": [
+    "ikea",
+    "billy",
+    "regal",
+    "bookcase"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.97,
+     "h": 0.03,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.0,
+     "h": 0.03,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": -0.485,
+     "z": 0,
+     "w": 0.03,
+     "d": 1,
+     "y": 0.0,
+     "h": 1.0,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0.485,
+     "z": 0,
+     "w": 0.03,
+     "d": 1,
+     "y": 0.0,
+     "h": 1.0,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.94,
+     "d": 0.96,
+     "y": 0.3583333333333333,
+     "h": 0.03,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.94,
+     "d": 0.96,
+     "y": 0.6716666666666666,
+     "h": 0.03,
+     "color": "wood"
+    }
+   ]
+  },
+  {
+   "id": "ivar",
+   "name": {
+    "de": "IKEA Ivar Regal",
+    "en": "IKEA Ivar shelving unit"
+   },
+   "size": [
+    0.89,
+    0.5,
+    1.79
+   ],
+   "group": "storage",
+   "room": [
+    "living",
+    "utility",
+    "garage"
+   ],
+   "tags": [
+    "ikea",
+    "ivar",
+    "regal",
+    "shelf"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": -0.45,
+     "z": -0.4,
+     "w": 0.04,
+     "d": 0.05,
+     "y": 0,
+     "h": 1,
+     "color": "metal"
+    },
+    {
+     "shape": "box",
+     "x": -0.45,
+     "z": 0.4,
+     "w": 0.04,
+     "d": 0.05,
+     "y": 0,
+     "h": 1,
+     "color": "metal"
+    },
+    {
+     "shape": "box",
+     "x": 0.45,
+     "z": -0.4,
+     "w": 0.04,
+     "d": 0.05,
+     "y": 0,
+     "h": 1,
+     "color": "metal"
+    },
+    {
+     "shape": "box",
+     "x": 0.45,
+     "z": 0.4,
+     "w": 0.04,
+     "d": 0.05,
+     "y": 0,
+     "h": 1,
+     "color": "metal"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 0.9,
+     "y": 0.06,
+     "h": 0.04,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 0.9,
+     "y": 0.295,
+     "h": 0.04,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 0.9,
+     "y": 0.53,
+     "h": 0.04,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 0.9,
+     "y": 0.7649999999999999,
+     "h": 0.04,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 0.9,
+     "y": 0.95,
+     "h": 0.04,
+     "color": "wood",
+     "edges": true
+    }
+   ]
+  },
+  {
+   "id": "bror",
+   "name": {
+    "de": "IKEA Bror Regal",
+    "en": "IKEA Bror shelving unit"
+   },
+   "size": [
+    0.85,
+    0.4,
+    1.9
+   ],
+   "group": "storage",
+   "room": [
+    "utility",
+    "garage",
+    "office"
+   ],
+   "tags": [
+    "ikea",
+    "bror",
+    "regal",
+    "shelf"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": -0.45,
+     "z": -0.4,
+     "w": 0.04,
+     "d": 0.05,
+     "y": 0,
+     "h": 1,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": -0.45,
+     "z": 0.4,
+     "w": 0.04,
+     "d": 0.05,
+     "y": 0,
+     "h": 1,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": 0.45,
+     "z": -0.4,
+     "w": 0.04,
+     "d": 0.05,
+     "y": 0,
+     "h": 1,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": 0.45,
+     "z": 0.4,
+     "w": 0.04,
+     "d": 0.05,
+     "y": 0,
+     "h": 1,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 0.9,
+     "y": 0.06,
+     "h": 0.04,
+     "color": "dark",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 0.9,
+     "y": 0.3733333333333333,
+     "h": 0.04,
+     "color": "dark",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 0.9,
+     "y": 0.6866666666666665,
+     "h": 0.04,
+     "color": "dark",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 0.9,
+     "y": 0.95,
+     "h": 0.04,
+     "color": "dark",
+     "edges": true
+    }
+   ]
+  },
+  {
+   "id": "lack_side",
+   "name": {
+    "de": "IKEA Lack Beistelltisch",
+    "en": "IKEA Lack side table"
+   },
+   "size": [
+    0.55,
+    0.55,
+    0.45
+   ],
+   "group": "table",
+   "room": [
+    "living"
+   ],
+   "tags": [
+    "ikea",
+    "lack",
+    "beistelltisch",
+    "side table"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.9,
+     "h": 0.1,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.435,
+     "z": -0.435,
+     "w": 0.09,
+     "d": 0.09,
+     "y": 0,
+     "h": 0.9,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": -0.435,
+     "z": 0.435,
+     "w": 0.09,
+     "d": 0.09,
+     "y": 0,
+     "h": 0.9,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0.435,
+     "z": -0.435,
+     "w": 0.09,
+     "d": 0.09,
+     "y": 0,
+     "h": 0.9,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0.435,
+     "z": 0.435,
+     "w": 0.09,
+     "d": 0.09,
+     "y": 0,
+     "h": 0.9,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "id": "lack_coffee",
+   "name": {
+    "de": "IKEA Lack Couchtisch",
+    "en": "IKEA Lack coffee table"
+   },
+   "size": [
+    1.18,
+    0.78,
+    0.45
+   ],
+   "group": "table",
+   "room": [
+    "living"
+   ],
+   "tags": [
+    "ikea",
+    "lack",
+    "couchtisch",
+    "coffee table"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.9,
+     "h": 0.1,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.44499999999999995,
+     "z": -0.44499999999999995,
+     "w": 0.07,
+     "d": 0.07,
+     "y": 0,
+     "h": 0.9,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": -0.44499999999999995,
+     "z": 0.44499999999999995,
+     "w": 0.07,
+     "d": 0.07,
+     "y": 0,
+     "h": 0.9,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0.44499999999999995,
+     "z": -0.44499999999999995,
+     "w": 0.07,
+     "d": 0.07,
+     "y": 0,
+     "h": 0.9,
+     "color": "white"
+    },
+    {
+     "shape": "box",
+     "x": 0.44499999999999995,
+     "z": 0.44499999999999995,
+     "w": 0.07,
+     "d": 0.07,
+     "y": 0,
+     "h": 0.9,
+     "color": "white"
+    }
+   ]
+  },
+  {
+   "id": "besta_tv",
+   "name": {
+    "de": "IKEA Bestå TV-Bank",
+    "en": "IKEA Bestå TV bench"
+   },
+   "size": [
+    1.2,
+    0.4,
+    0.48
+   ],
+   "group": "media",
+   "room": [
+    "living"
+   ],
+   "tags": [
+    "ikea",
+    "besta",
+    "tv",
+    "tv bank",
+    "tv bench"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.18,
+     "h": 0.76,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.94,
+     "d": 0.9,
+     "y": 0.1,
+     "h": 0.08,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": -0.25,
+     "z": 0.48,
+     "w": 0.44,
+     "d": 0.04,
+     "y": 0.22,
+     "h": 0.68,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0.25,
+     "z": 0.48,
+     "w": 0.44,
+     "d": 0.04,
+     "y": 0.22,
+     "h": 0.68,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.44,
+     "z": -0.4,
+     "w": 0.02,
+     "d": 0.04,
+     "y": 0,
+     "h": 0.1,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.44,
+     "z": -0.4,
+     "w": 0.02,
+     "d": 0.04,
+     "y": 0,
+     "h": 0.1,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.44,
+     "z": 0.4,
+     "w": 0.02,
+     "d": 0.04,
+     "y": 0,
+     "h": 0.1,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.44,
+     "z": 0.4,
+     "w": 0.02,
+     "d": 0.04,
+     "y": 0,
+     "h": 0.1,
+     "color": "metal"
+    }
+   ]
+  },
+  {
+   "id": "besta_tall",
+   "name": {
+    "de": "IKEA Bestå Schrank",
+    "en": "IKEA Bestå storage combination"
+   },
+   "size": [
+    1.2,
+    0.4,
+    1.92
+   ],
+   "group": "storage",
+   "room": [
+    "living",
+    "office"
+   ],
+   "tags": [
+    "ikea",
+    "besta",
+    "schrank",
+    "storage"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.04,
+     "h": 0.96,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.96,
+     "d": 0.96,
+     "y": 0,
+     "h": 0.04,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": -0.31333333333333335,
+     "z": 0.48,
+     "w": 0.3033333333333333,
+     "d": 0.04,
+     "y": 0.06,
+     "h": 0.9,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.23500000000000004,
+     "z": 0.5,
+     "w": 0.008,
+     "d": 0.01,
+     "y": 0.5,
+     "h": 0.1,
+     "color": "metal"
+    },
+    {
+     "shape": "box",
+     "x": -5.551115123125783e-17,
+     "z": 0.48,
+     "w": 0.3033333333333333,
+     "d": 0.04,
+     "y": 0.06,
+     "h": 0.9,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.07833333333333327,
+     "z": 0.5,
+     "w": 0.008,
+     "d": 0.01,
+     "y": 0.5,
+     "h": 0.1,
+     "color": "metal"
+    },
+    {
+     "shape": "box",
+     "x": 0.31333333333333324,
+     "z": 0.48,
+     "w": 0.3033333333333333,
+     "d": 0.04,
+     "y": 0.06,
+     "h": 0.9,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.39166666666666655,
+     "z": 0.5,
+     "w": 0.008,
+     "d": 0.01,
+     "y": 0.5,
+     "h": 0.1,
+     "color": "metal"
+    }
+   ]
+  },
+  {
+   "id": "malm_bed_160",
+   "name": {
+    "de": "IKEA Malm Bett 160",
+    "en": "IKEA Malm bed 160x200"
+   },
+   "size": [
+    1.76,
+    2.09,
+    1.0
+   ],
+   "group": "bed",
+   "room": [
+    "bedroom"
+   ],
+   "tags": [
+    "ikea",
+    "malm",
+    "bett",
+    "bed"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.47,
+     "w": 1,
+     "d": 0.06,
+     "y": 0,
+     "h": 0.62,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.47,
+     "w": 1,
+     "d": 0.06,
+     "y": 0,
+     "h": 0.28,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.47,
+     "z": 0,
+     "w": 0.06,
+     "d": 0.94,
+     "y": 0.05,
+     "h": 0.23000000000000004,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.47,
+     "z": 0,
+     "w": 0.06,
+     "d": 0.94,
+     "y": 0.05,
+     "h": 0.23000000000000004,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9,
+     "d": 0.88,
+     "y": 0.2,
+     "h": 0.18,
+     "color": "fabric"
+    },
+    {
+     "shape": "box",
+     "x": -0.44,
+     "z": -0.44,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.05,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": 0.44,
+     "z": -0.44,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.05,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": -0.44,
+     "z": 0.44,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.05,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": 0.44,
+     "z": 0.44,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.05,
+     "color": "dark"
+    }
+   ]
+  },
+  {
+   "id": "malm_chest4",
+   "name": {
+    "de": "IKEA Malm Kommode 4",
+    "en": "IKEA Malm chest of 4 drawers"
+   },
+   "size": [
+    0.8,
+    0.48,
+    1.0
+   ],
+   "group": "storage",
+   "room": [
+    "bedroom"
+   ],
+   "tags": [
+    "ikea",
+    "malm",
+    "kommode",
+    "chest of drawers"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.06,
+     "h": 0.94,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.92,
+     "d": 0.92,
+     "y": 0,
+     "h": 0.06,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.06999999999999999,
+     "h": 0.205,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.295,
+     "h": 0.205,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.5199999999999999,
+     "h": 0.205,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.7449999999999999,
+     "h": 0.205,
+     "color": "front",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "malm_chest6",
+   "name": {
+    "de": "IKEA Malm Kommode 6",
+    "en": "IKEA Malm chest of 6 drawers"
+   },
+   "size": [
+    0.8,
+    0.48,
+    1.23
+   ],
+   "group": "storage",
+   "room": [
+    "bedroom"
+   ],
+   "tags": [
+    "ikea",
+    "malm",
+    "kommode",
+    "chest of drawers"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.06,
+     "h": 0.94,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.92,
+     "d": 0.92,
+     "y": 0,
+     "h": 0.06,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.06999999999999999,
+     "h": 0.12999999999999998,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.21999999999999997,
+     "h": 0.12999999999999998,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.36999999999999994,
+     "h": 0.12999999999999998,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.5199999999999999,
+     "h": 0.12999999999999998,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.6699999999999998,
+     "h": 0.12999999999999998,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.8199999999999997,
+     "h": 0.12999999999999998,
+     "color": "front",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "malm_chest6w",
+   "name": {
+    "de": "IKEA Malm Kommode breit",
+    "en": "IKEA Malm wide chest of 6"
+   },
+   "size": [
+    1.6,
+    0.48,
+    0.78
+   ],
+   "group": "storage",
+   "room": [
+    "bedroom"
+   ],
+   "tags": [
+    "ikea",
+    "malm",
+    "kommode",
+    "chest of drawers"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.06,
+     "h": 0.94,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.92,
+     "d": 0.92,
+     "y": 0,
+     "h": 0.06,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.06999999999999999,
+     "h": 0.27999999999999997,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.37,
+     "h": 0.27999999999999997,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.6699999999999999,
+     "h": 0.27999999999999997,
+     "color": "front",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "malm_night",
+   "name": {
+    "de": "IKEA Malm Nachttisch",
+    "en": "IKEA Malm nightstand"
+   },
+   "size": [
+    0.4,
+    0.48,
+    0.55
+   ],
+   "group": "storage",
+   "room": [
+    "bedroom"
+   ],
+   "tags": [
+    "ikea",
+    "malm",
+    "nachttisch",
+    "nightstand"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.08,
+     "h": 0.92,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.92,
+     "d": 0.92,
+     "y": 0,
+     "h": 0.08,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.09,
+     "h": 0.42,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.53,
+     "h": 0.42,
+     "color": "front",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "pax_100",
+   "name": {
+    "de": "IKEA Pax Schrank 100",
+    "en": "IKEA Pax wardrobe 100"
+   },
+   "size": [
+    1.0,
+    0.6,
+    2.36
+   ],
+   "group": "storage",
+   "room": [
+    "bedroom"
+   ],
+   "tags": [
+    "ikea",
+    "pax",
+    "kleiderschrank",
+    "wardrobe"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.04,
+     "h": 0.96,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.96,
+     "d": 0.96,
+     "y": 0,
+     "h": 0.04,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": -0.235,
+     "z": 0.48,
+     "w": 0.45999999999999996,
+     "d": 0.04,
+     "y": 0.06,
+     "h": 0.9,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.1175,
+     "z": 0.5,
+     "w": 0.008,
+     "d": 0.01,
+     "y": 0.5,
+     "h": 0.1,
+     "color": "metal"
+    },
+    {
+     "shape": "box",
+     "x": 0.235,
+     "z": 0.48,
+     "w": 0.45999999999999996,
+     "d": 0.04,
+     "y": 0.06,
+     "h": 0.9,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.3525,
+     "z": 0.5,
+     "w": 0.008,
+     "d": 0.01,
+     "y": 0.5,
+     "h": 0.1,
+     "color": "metal"
+    }
+   ]
+  },
+  {
+   "id": "pax_75",
+   "name": {
+    "de": "IKEA Pax Schrank 75",
+    "en": "IKEA Pax wardrobe 75"
+   },
+   "size": [
+    0.75,
+    0.58,
+    2.36
+   ],
+   "group": "storage",
+   "room": [
+    "bedroom"
+   ],
+   "tags": [
+    "ikea",
+    "pax",
+    "kleiderschrank",
+    "wardrobe"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.04,
+     "h": 0.96,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.96,
+     "d": 0.96,
+     "y": 0,
+     "h": 0.04,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": -0.235,
+     "z": 0.48,
+     "w": 0.45999999999999996,
+     "d": 0.04,
+     "y": 0.06,
+     "h": 0.9,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.1175,
+     "z": 0.5,
+     "w": 0.008,
+     "d": 0.01,
+     "y": 0.5,
+     "h": 0.1,
+     "color": "metal"
+    },
+    {
+     "shape": "box",
+     "x": 0.235,
+     "z": 0.48,
+     "w": 0.45999999999999996,
+     "d": 0.04,
+     "y": 0.06,
+     "h": 0.9,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.3525,
+     "z": 0.5,
+     "w": 0.008,
+     "d": 0.01,
+     "y": 0.5,
+     "h": 0.1,
+     "color": "metal"
+    }
+   ]
+  },
+  {
+   "id": "hemnes_chest8",
+   "name": {
+    "de": "IKEA Hemnes Kommode",
+    "en": "IKEA Hemnes chest of 8 drawers"
+   },
+   "size": [
+    1.6,
+    0.5,
+    0.96
+   ],
+   "group": "storage",
+   "room": [
+    "bedroom"
+   ],
+   "tags": [
+    "ikea",
+    "hemnes",
+    "kommode",
+    "chest of drawers"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.06,
+     "h": 0.94,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.92,
+     "d": 0.92,
+     "y": 0,
+     "h": 0.06,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.06999999999999999,
+     "h": 0.205,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.295,
+     "h": 0.205,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.5199999999999999,
+     "h": 0.205,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.7449999999999999,
+     "h": 0.205,
+     "color": "front",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "micke_desk",
+   "name": {
+    "de": "IKEA Micke Schreibtisch",
+    "en": "IKEA Micke desk"
+   },
+   "size": [
+    1.05,
+    0.5,
+    0.75
+   ],
+   "group": "office",
+   "room": [
+    "office"
+   ],
+   "tags": [
+    "ikea",
+    "micke",
+    "schreibtisch",
+    "desk"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.93,
+     "h": 0.07,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0.36,
+     "z": 0,
+     "w": 0.24,
+     "d": 0.92,
+     "y": 0.06,
+     "h": 0.87,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.44,
+     "z": 0,
+     "w": 0.05,
+     "d": 0.9,
+     "y": 0,
+     "h": 0.93,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.36,
+     "z": 0,
+     "w": 0.2,
+     "d": 0.85,
+     "y": 0,
+     "h": 0.06,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": 0.36,
+     "z": 0.44,
+     "w": 0.2,
+     "d": 0.04,
+     "y": 0.14,
+     "h": 0.72,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0.36,
+     "z": 0.44,
+     "w": 0.2,
+     "d": 0.04,
+     "y": 0.14,
+     "h": 0.2,
+     "color": "front",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "alex_unit",
+   "name": {
+    "de": "IKEA Alex Rollcontainer",
+    "en": "IKEA Alex drawer unit"
+   },
+   "size": [
+    0.36,
+    0.58,
+    0.7
+   ],
+   "group": "office",
+   "room": [
+    "office"
+   ],
+   "tags": [
+    "ikea",
+    "alex",
+    "rollcontainer",
+    "drawer unit"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.04,
+     "h": 0.96,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.92,
+     "d": 0.92,
+     "y": 0,
+     "h": 0.04,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.05,
+     "h": 0.16399999999999998,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.23399999999999999,
+     "h": 0.16399999999999998,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.4179999999999999,
+     "h": 0.16399999999999998,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.602,
+     "h": 0.16399999999999998,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.48,
+     "w": 0.9,
+     "d": 0.04,
+     "y": 0.7859999999999999,
+     "h": 0.16399999999999998,
+     "color": "front",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "alex_desk",
+   "name": {
+    "de": "IKEA Alex Schreibtisch",
+    "en": "IKEA Alex desk"
+   },
+   "size": [
+    1.32,
+    0.58,
+    0.76
+   ],
+   "group": "office",
+   "room": [
+    "office"
+   ],
+   "tags": [
+    "ikea",
+    "alex",
+    "schreibtisch",
+    "desk"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.93,
+     "h": 0.07,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0.36,
+     "z": 0,
+     "w": 0.24,
+     "d": 0.92,
+     "y": 0.06,
+     "h": 0.87,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.44,
+     "z": 0,
+     "w": 0.05,
+     "d": 0.9,
+     "y": 0,
+     "h": 0.93,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.36,
+     "z": 0,
+     "w": 0.2,
+     "d": 0.85,
+     "y": 0,
+     "h": 0.06,
+     "color": "dark"
+    },
+    {
+     "shape": "box",
+     "x": 0.36,
+     "z": 0.44,
+     "w": 0.2,
+     "d": 0.04,
+     "y": 0.14,
+     "h": 0.72,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0.36,
+     "z": 0.44,
+     "w": 0.2,
+     "d": 0.04,
+     "y": 0.14,
+     "h": 0.2,
+     "color": "front",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "linnmon",
+   "name": {
+    "de": "IKEA Linnmon/Adils Tisch",
+    "en": "IKEA Linnmon/Adils table"
+   },
+   "size": [
+    1.2,
+    0.6,
+    0.74
+   ],
+   "group": "table",
+   "room": [
+    "office"
+   ],
+   "tags": [
+    "ikea",
+    "linnmon",
+    "adils",
+    "tisch",
+    "table",
+    "desk"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.95,
+     "h": 0.05,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.435,
+     "z": -0.435,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.95,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": -0.435,
+     "z": 0.435,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.95,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.435,
+     "z": -0.435,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.95,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.435,
+     "z": 0.435,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.95,
+     "color": "wood"
+    }
+   ]
+  },
+  {
+   "id": "markus",
+   "name": {
+    "de": "IKEA Markus Bürostuhl",
+    "en": "IKEA Markus office chair"
+   },
+   "size": [
+    0.62,
+    0.6,
+    1.35
+   ],
+   "group": "office",
+   "room": [
+    "office"
+   ],
+   "tags": [
+    "ikea",
+    "markus",
+    "bürostuhl",
+    "office chair"
+   ],
+   "parts": [
+    {
+     "shape": "cyl",
+     "x": 0,
+     "z": 0,
+     "w": 0.07,
+     "d": 0.07,
+     "y": 0.1,
+     "h": 0.32,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0,
+     "z": 0,
+     "w": 0.5,
+     "d": 0.5,
+     "y": 0.06,
+     "h": 0.05,
+     "color": "metal",
+     "axis": "x"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.03,
+     "w": 0.55,
+     "d": 0.5,
+     "y": 0.38,
+     "h": 0.09,
+     "color": "dark",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.28,
+     "w": 0.55,
+     "d": 0.08,
+     "y": 0.45,
+     "h": 0.5,
+     "color": "dark",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.28,
+     "w": 0.4,
+     "d": 0.08,
+     "y": 0.95,
+     "h": 0.05,
+     "color": "dark"
+    }
+   ]
+  },
+  {
+   "id": "jokkmokk",
+   "name": {
+    "de": "IKEA Jokkmokk Tisch",
+    "en": "IKEA Jokkmokk table"
+   },
+   "size": [
+    1.18,
+    0.74,
+    0.74
+   ],
+   "group": "table",
+   "room": [
+    "dining",
+    "kitchen"
+   ],
+   "tags": [
+    "ikea",
+    "jokkmokk",
+    "esstisch",
+    "dining table"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.95,
+     "h": 0.05,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.42000000000000004,
+     "z": -0.42000000000000004,
+     "w": 0.06,
+     "d": 0.06,
+     "y": 0,
+     "h": 0.95,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": -0.42000000000000004,
+     "z": 0.42000000000000004,
+     "w": 0.06,
+     "d": 0.06,
+     "y": 0,
+     "h": 0.95,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.42000000000000004,
+     "z": -0.42000000000000004,
+     "w": 0.06,
+     "d": 0.06,
+     "y": 0,
+     "h": 0.95,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.42000000000000004,
+     "z": 0.42000000000000004,
+     "w": 0.06,
+     "d": 0.06,
+     "y": 0,
+     "h": 0.95,
+     "color": "wood"
+    }
+   ]
+  },
+  {
+   "id": "lisabo",
+   "name": {
+    "de": "IKEA Lisabo Tisch",
+    "en": "IKEA Lisabo table"
+   },
+   "size": [
+    1.4,
+    0.78,
+    0.74
+   ],
+   "group": "table",
+   "room": [
+    "dining"
+   ],
+   "tags": [
+    "ikea",
+    "lisabo",
+    "esstisch",
+    "dining table"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.95,
+     "h": 0.05,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.39499999999999996,
+     "z": -0.39499999999999996,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.95,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": -0.39499999999999996,
+     "z": 0.39499999999999996,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.95,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.39499999999999996,
+     "z": -0.39499999999999996,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.95,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.39499999999999996,
+     "z": 0.39499999999999996,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.95,
+     "color": "wood"
+    }
+   ]
+  },
+  {
+   "id": "melltorp",
+   "name": {
+    "de": "IKEA Melltorp Tisch",
+    "en": "IKEA Melltorp table"
+   },
+   "size": [
+    1.25,
+    0.75,
+    0.74
+   ],
+   "group": "table",
+   "room": [
+    "dining",
+    "kitchen"
+   ],
+   "tags": [
+    "ikea",
+    "melltorp",
+    "esstisch",
+    "dining table"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.96,
+     "h": 0.04,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.44499999999999995,
+     "z": -0.44499999999999995,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.96,
+     "color": "metal"
+    },
+    {
+     "shape": "box",
+     "x": -0.44499999999999995,
+     "z": 0.44499999999999995,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.96,
+     "color": "metal"
+    },
+    {
+     "shape": "box",
+     "x": 0.44499999999999995,
+     "z": -0.44499999999999995,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.96,
+     "color": "metal"
+    },
+    {
+     "shape": "box",
+     "x": 0.44499999999999995,
+     "z": 0.44499999999999995,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.96,
+     "color": "metal"
+    }
+   ]
+  },
+  {
+   "id": "ekedalen",
+   "name": {
+    "de": "IKEA Ekedalen Tisch",
+    "en": "IKEA Ekedalen extendable table"
+   },
+   "size": [
+    1.2,
+    0.8,
+    0.75
+   ],
+   "group": "table",
+   "room": [
+    "dining"
+   ],
+   "tags": [
+    "ikea",
+    "ekedalen",
+    "esstisch",
+    "dining table"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.95,
+     "h": 0.05,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.405,
+     "z": -0.405,
+     "w": 0.07,
+     "d": 0.07,
+     "y": 0,
+     "h": 0.95,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": -0.405,
+     "z": 0.405,
+     "w": 0.07,
+     "d": 0.07,
+     "y": 0,
+     "h": 0.95,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.405,
+     "z": -0.405,
+     "w": 0.07,
+     "d": 0.07,
+     "y": 0,
+     "h": 0.95,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.405,
+     "z": 0.405,
+     "w": 0.07,
+     "d": 0.07,
+     "y": 0,
+     "h": 0.95,
+     "color": "wood"
+    }
+   ]
+  },
+  {
+   "id": "stefan",
+   "name": {
+    "de": "IKEA Stefan Stuhl",
+    "en": "IKEA Stefan chair"
+   },
+   "size": [
+    0.42,
+    0.49,
+    0.9
+   ],
+   "group": "seating",
+   "room": [
+    "dining",
+    "kitchen"
+   ],
+   "tags": [
+    "ikea",
+    "stefan",
+    "stuhl",
+    "chair"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9,
+     "d": 0.9,
+     "y": 0.42,
+     "h": 0.08,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.42,
+     "w": 0.85,
+     "d": 0.06,
+     "y": 0.42,
+     "h": 0.5,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.38,
+     "z": -0.38,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.42,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": -0.38,
+     "z": 0.38,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.42,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.38,
+     "z": -0.38,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.42,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.38,
+     "z": 0.38,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.42,
+     "color": "wood"
+    }
+   ]
+  },
+  {
+   "id": "adde",
+   "name": {
+    "de": "IKEA Adde Stuhl",
+    "en": "IKEA Adde chair"
+   },
+   "size": [
+    0.39,
+    0.47,
+    0.77
+   ],
+   "group": "seating",
+   "room": [
+    "dining",
+    "kitchen"
+   ],
+   "tags": [
+    "ikea",
+    "adde",
+    "stuhl",
+    "chair"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9,
+     "d": 0.9,
+     "y": 0.42,
+     "h": 0.08,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.42,
+     "w": 0.85,
+     "d": 0.06,
+     "y": 0.42,
+     "h": 0.45,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.38,
+     "z": -0.38,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.42,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": -0.38,
+     "z": 0.38,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.42,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.38,
+     "z": -0.38,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.42,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.38,
+     "z": 0.38,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.42,
+     "color": "wood"
+    }
+   ]
+  },
+  {
+   "id": "raskog",
+   "name": {
+    "de": "IKEA Råskog Rollwagen",
+    "en": "IKEA Råskog trolley"
+   },
+   "size": [
+    0.35,
+    0.45,
+    0.78
+   ],
+   "group": "storage",
+   "room": [
+    "kitchen",
+    "bath",
+    "office"
+   ],
+   "tags": [
+    "ikea",
+    "raskog",
+    "rollwagen",
+    "trolley"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9,
+     "d": 0.85,
+     "y": 0.18,
+     "h": 0.12,
+     "color": "metal",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9,
+     "d": 0.85,
+     "y": 0.51,
+     "h": 0.12,
+     "color": "metal",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9,
+     "d": 0.85,
+     "y": 0.8400000000000001,
+     "h": 0.12,
+     "color": "metal",
+     "edges": true
+    },
+    {
+     "shape": "cyl",
+     "x": -0.4,
+     "z": -0.35,
+     "w": 0.04,
+     "d": 0.04,
+     "y": 0.14,
+     "h": 0.86,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.4,
+     "z": -0.35,
+     "w": 0.06,
+     "d": 0.06,
+     "y": 0.02,
+     "h": 0.1,
+     "color": "dark"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.4,
+     "z": 0.35,
+     "w": 0.04,
+     "d": 0.04,
+     "y": 0.14,
+     "h": 0.86,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.4,
+     "z": 0.35,
+     "w": 0.06,
+     "d": 0.06,
+     "y": 0.02,
+     "h": 0.1,
+     "color": "dark"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.4,
+     "z": -0.35,
+     "w": 0.04,
+     "d": 0.04,
+     "y": 0.14,
+     "h": 0.86,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.4,
+     "z": -0.35,
+     "w": 0.06,
+     "d": 0.06,
+     "y": 0.02,
+     "h": 0.1,
+     "color": "dark"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.4,
+     "z": 0.35,
+     "w": 0.04,
+     "d": 0.04,
+     "y": 0.14,
+     "h": 0.86,
+     "color": "metal"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.4,
+     "z": 0.35,
+     "w": 0.06,
+     "d": 0.06,
+     "y": 0.02,
+     "h": 0.1,
+     "color": "dark"
+    }
+   ]
+  },
+  {
+   "id": "trones",
+   "name": {
+    "de": "IKEA Trones Schuhschrank",
+    "en": "IKEA Trones shoe cabinet"
+   },
+   "size": [
+    0.52,
+    0.18,
+    0.39
+   ],
+   "group": "storage",
+   "room": [
+    "hall"
+   ],
+   "tags": [
+    "ikea",
+    "trones",
+    "schuhschrank",
+    "shoe cabinet"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0,
+     "h": 1,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.46,
+     "w": 0.92,
+     "d": 0.06,
+     "y": 0.03,
+     "h": 0.44999999999999996,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.46,
+     "w": 0.92,
+     "d": 0.06,
+     "y": 0.5,
+     "h": 0.44999999999999996,
+     "color": "front",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "hemnes_shoe",
+   "name": {
+    "de": "IKEA Hemnes Schuhschrank",
+    "en": "IKEA Hemnes shoe cabinet"
+   },
+   "size": [
+    1.07,
+    0.22,
+    1.01
+   ],
+   "group": "storage",
+   "room": [
+    "hall"
+   ],
+   "tags": [
+    "ikea",
+    "hemnes",
+    "schuhschrank",
+    "shoe cabinet"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0,
+     "h": 1,
+     "color": "white",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.46,
+     "w": 0.92,
+     "d": 0.06,
+     "y": 0.03,
+     "h": 0.215,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.46,
+     "w": 0.92,
+     "d": 0.06,
+     "y": 0.265,
+     "h": 0.215,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.46,
+     "w": 0.92,
+     "d": 0.06,
+     "y": 0.5,
+     "h": 0.215,
+     "color": "front",
+     "edges": "faint"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.46,
+     "w": 0.92,
+     "d": 0.06,
+     "y": 0.735,
+     "h": 0.215,
+     "color": "front",
+     "edges": "faint"
+    }
+   ]
+  },
+  {
+   "id": "kura",
+   "name": {
+    "de": "IKEA Kura Bett",
+    "en": "IKEA Kura reversible bed"
+   },
+   "size": [
+    0.99,
+    2.09,
+    1.16
+   ],
+   "group": "kids",
+   "room": [
+    "kids"
+   ],
+   "tags": [
+    "ikea",
+    "kura",
+    "kinderbett",
+    "kids bed"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.44,
+     "w": 1,
+     "d": 0.08,
+     "y": 0,
+     "h": 0.62,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.44,
+     "w": 1,
+     "d": 0.08,
+     "y": 0,
+     "h": 0.62,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.46,
+     "z": 0,
+     "w": 0.08,
+     "d": 0.96,
+     "y": 0,
+     "h": 0.62,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0.46,
+     "z": 0,
+     "w": 0.08,
+     "d": 0.96,
+     "y": 0,
+     "h": 0.62,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9,
+     "d": 0.85,
+     "y": 0.5,
+     "h": 0.12,
+     "color": "fabric"
+    },
+    {
+     "shape": "box",
+     "x": 0.3,
+     "z": 0.4,
+     "w": 0.15,
+     "d": 0.12,
+     "y": 0,
+     "h": 0.55,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.3,
+     "z": 0.4,
+     "w": 0.15,
+     "d": 0.05,
+     "y": 0.14,
+     "h": 0.03,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.3,
+     "z": 0.4,
+     "w": 0.15,
+     "d": 0.05,
+     "y": 0.28,
+     "h": 0.03,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.3,
+     "z": 0.4,
+     "w": 0.15,
+     "d": 0.05,
+     "y": 0.42000000000000004,
+     "h": 0.03,
+     "color": "wood"
+    }
+   ]
+  },
+  {
+   "id": "mammut_table",
+   "name": {
+    "de": "IKEA Mammut Kindertisch",
+    "en": "IKEA Mammut children's table"
+   },
+   "size": [
+    0.77,
+    0.55,
+    0.48
+   ],
+   "group": "kids",
+   "room": [
+    "kids"
+   ],
+   "tags": [
+    "ikea",
+    "mammut",
+    "kindertisch",
+    "kids table"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 1,
+     "d": 1,
+     "y": 0.9,
+     "h": 0.1,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.4,
+     "z": -0.4,
+     "w": 0.08,
+     "d": 0.08,
+     "y": 0,
+     "h": 0.9,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": -0.4,
+     "z": 0.4,
+     "w": 0.08,
+     "d": 0.08,
+     "y": 0,
+     "h": 0.9,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.4,
+     "z": -0.4,
+     "w": 0.08,
+     "d": 0.08,
+     "y": 0,
+     "h": 0.9,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.4,
+     "z": 0.4,
+     "w": 0.08,
+     "d": 0.08,
+     "y": 0,
+     "h": 0.9,
+     "color": "wood"
+    }
+   ]
+  },
+  {
+   "id": "mammut_chair",
+   "name": {
+    "de": "IKEA Mammut Kinderstuhl",
+    "en": "IKEA Mammut children's chair"
+   },
+   "size": [
+    0.39,
+    0.36,
+    0.67
+   ],
+   "group": "kids",
+   "room": [
+    "kids"
+   ],
+   "tags": [
+    "ikea",
+    "mammut",
+    "kinderstuhl",
+    "kids chair"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.9,
+     "d": 0.9,
+     "y": 0.42,
+     "h": 0.08,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.42,
+     "w": 0.85,
+     "d": 0.06,
+     "y": 0.42,
+     "h": 0.4,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": -0.38,
+     "z": -0.38,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.42,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": -0.38,
+     "z": 0.38,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.42,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.38,
+     "z": -0.38,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.42,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0.38,
+     "z": 0.38,
+     "w": 0.05,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.42,
+     "color": "wood"
+    }
+   ]
+  },
+  {
+   "id": "gulliver",
+   "name": {
+    "de": "IKEA Gulliver Babybett",
+    "en": "IKEA Gulliver cot"
+   },
+   "size": [
+    0.66,
+    1.24,
+    0.8
+   ],
+   "group": "kids",
+   "room": [
+    "kids",
+    "bedroom"
+   ],
+   "tags": [
+    "ikea",
+    "gulliver",
+    "babybett",
+    "cot",
+    "crib"
+   ],
+   "parts": [
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.94,
+     "d": 0.88,
+     "y": 0.35,
+     "h": 0.1,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": -0.46,
+     "z": 0,
+     "w": 0.05,
+     "d": 0.95,
+     "y": 0,
+     "h": 0.85,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0.46,
+     "z": 0,
+     "w": 0.05,
+     "d": 0.95,
+     "y": 0,
+     "h": 0.85,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": -0.44,
+     "w": 0.97,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.85,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0.44,
+     "w": 0.97,
+     "d": 0.05,
+     "y": 0,
+     "h": 0.85,
+     "color": "wood",
+     "edges": true
+    },
+    {
+     "shape": "cyl",
+     "x": -0.4,
+     "z": -0.44,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.4,
+     "z": 0.44,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.46,
+     "z": -0.36,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.46,
+     "z": -0.36,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.30000000000000004,
+     "z": -0.44,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.30000000000000004,
+     "z": 0.44,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.46,
+     "z": -0.27,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.46,
+     "z": -0.27,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.2,
+     "z": -0.44,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.2,
+     "z": 0.44,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.46,
+     "z": -0.18,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.46,
+     "z": -0.18,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.1,
+     "z": -0.44,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.1,
+     "z": 0.44,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.46,
+     "z": -0.09,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.46,
+     "z": -0.09,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.0,
+     "z": -0.44,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.0,
+     "z": 0.44,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.46,
+     "z": 0.0,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.46,
+     "z": 0.0,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.1,
+     "z": -0.44,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.1,
+     "z": 0.44,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.46,
+     "z": 0.09,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.46,
+     "z": 0.09,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.2,
+     "z": -0.44,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.2,
+     "z": 0.44,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.46,
+     "z": 0.18,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.46,
+     "z": 0.18,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.30000000000000004,
+     "z": -0.44,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.30000000000000004,
+     "z": 0.44,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.46,
+     "z": 0.27,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.46,
+     "z": 0.27,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.4,
+     "z": -0.44,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.4,
+     "z": 0.44,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": -0.46,
+     "z": 0.36,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "cyl",
+     "x": 0.46,
+     "z": 0.36,
+     "w": 0.015,
+     "d": 0.02,
+     "y": 0.35,
+     "h": 0.45,
+     "color": "wood"
+    },
+    {
+     "shape": "box",
+     "x": 0,
+     "z": 0,
+     "w": 0.85,
+     "d": 0.8,
+     "y": 0.45,
+     "h": 0.1,
+     "color": "fabric"
+    }
+   ]
+  }
+ ]
+}
